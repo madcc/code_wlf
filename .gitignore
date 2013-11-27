@@ -1,0 +1,6 @@
+*.swp
+tags
+*.o
+/Object/
+/Listing/
+

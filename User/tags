@@ -1,0 +1,951 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACMD23	.\SPI_SD_driver.h	29;"	d
+ACMD41	.\SPI_SD_driver.h	32;"	d
+AXIS_COUNT	.\globalDef.h	51;"	d
+A_Axis	.\globalDef.h	55;"	d
+A_Axis	.\hardwareDef.h	69;"	d
+A_Axis_Dir_Pin	.\hardwareDef.h	63;"	d
+A_Axis_Dir_Port	.\hardwareDef.h	64;"	d
+A_Axis_Start_Pin	.\hardwareDef.h	59;"	d
+A_Axis_Start_Port	.\hardwareDef.h	60;"	d
+A_Axis_Step_Pin	.\hardwareDef.h	61;"	d
+A_Axis_Step_Port	.\hardwareDef.h	62;"	d
+BC_Center	.\button.h	/^enum BtnCode{BC_NULL,BC_Left,BC_Right,BC_Center,BC_Up,BC_Down};$/;"	e	enum:BtnCode
+BC_Down	.\button.h	/^enum BtnCode{BC_NULL,BC_Left,BC_Right,BC_Center,BC_Up,BC_Down};$/;"	e	enum:BtnCode
+BC_Left	.\button.h	/^enum BtnCode{BC_NULL,BC_Left,BC_Right,BC_Center,BC_Up,BC_Down};$/;"	e	enum:BtnCode
+BC_NULL	.\button.h	/^enum BtnCode{BC_NULL,BC_Left,BC_Right,BC_Center,BC_Up,BC_Down};$/;"	e	enum:BtnCode
+BC_Right	.\button.h	/^enum BtnCode{BC_NULL,BC_Left,BC_Right,BC_Center,BC_Up,BC_Down};$/;"	e	enum:BtnCode
+BC_Up	.\button.h	/^enum BtnCode{BC_NULL,BC_Left,BC_Right,BC_Center,BC_Up,BC_Down};$/;"	e	enum:BtnCode
+BtnCode	.\button.h	/^enum BtnCode{BC_NULL,BC_Left,BC_Right,BC_Center,BC_Up,BC_Down};$/;"	g
+Btn_Center_Pin	.\hardwareDef.h	97;"	d
+Btn_Center_Port	.\hardwareDef.h	98;"	d
+Btn_Down_Pin	.\hardwareDef.h	91;"	d
+Btn_Down_Port	.\hardwareDef.h	92;"	d
+Btn_Left_Pin	.\hardwareDef.h	89;"	d
+Btn_Left_Port	.\hardwareDef.h	90;"	d
+Btn_Right_Pin	.\hardwareDef.h	93;"	d
+Btn_Right_Port	.\hardwareDef.h	94;"	d
+Btn_Up_Pin	.\hardwareDef.h	95;"	d
+Btn_Up_Port	.\hardwareDef.h	96;"	d
+BufDataType	.\circleBuf.h	9;"	d
+BufSizeType	.\circleBuf.h	11;"	d
+BusFault_Handler	.\stm32f10x_it.c	/^void BusFault_Handler(void)$/;"	f	signature:(void)
+BusFault_Handler	.\stm32f10x_it.h	/^void BusFault_Handler(void);$/;"	p	signature:(void)
+BypassPID_Threshold	.\tempature.c	29;"	d	file:
+CCR1_Val	.\extruderOutput.c	/^u16 CCR1_Val = 2000;$/;"	v
+CCR2_Val	.\extruderOutput.c	/^u16 CCR2_Val = 2000;$/;"	v
+CIRCLE_BUF_H	.\circleBuf.h	4;"	d
+CMD0	.\SPI_SD_driver.h	22;"	d
+CMD10	.\SPI_SD_driver.h	24;"	d
+CMD12	.\SPI_SD_driver.h	25;"	d
+CMD16	.\SPI_SD_driver.h	26;"	d
+CMD17	.\SPI_SD_driver.h	27;"	d
+CMD18	.\SPI_SD_driver.h	28;"	d
+CMD24	.\SPI_SD_driver.h	30;"	d
+CMD25	.\SPI_SD_driver.h	31;"	d
+CMD55	.\SPI_SD_driver.h	33;"	d
+CMD58	.\SPI_SD_driver.h	34;"	d
+CMD59	.\SPI_SD_driver.h	35;"	d
+CMD9	.\SPI_SD_driver.h	23;"	d
+COMMAND_BUFFER_SIZE	.\globalDef.h	38;"	d
+COMMAND_H	.\command.h	2;"	d
+CancelMenuState	.\menu.c	/^	UtilityHomeAxes,UtilityLevelPlate,UtilityCancel,CancelMenuState};$/;"	e	enum:MenuState	file:
+CommandState	.\command.h	/^}CommandState;\/*}}}*\/$/;"	t	typeref:enum:__anon1
+DELAY	.\command.h	/^	DELAY,$/;"	e	enum:__anon1
+DebugMon_Handler	.\stm32f10x_it.c	/^void DebugMon_Handler(void)$/;"	f	signature:(void)
+DebugMon_Handler	.\stm32f10x_it.h	/^void DebugMon_Handler(void);$/;"	p	signature:(void)
+Debug_Data_Cmd	.\command.c	12;"	d	file:
+Delta_Sum_MAX	.\tempature.c	25;"	d	file:
+Delta_Sum_MIN	.\tempature.c	27;"	d	file:
+DiffSamples	.\tempature.c	28;"	d	file:
+DisableMotorInterrupt	.\motor.h	39;"	d
+EXTI15_10_IRQHandler	.\stm32f10x_it.c	/^void EXTI15_10_IRQHandler(void)		   \/*{{{*\/$/;"	f	signature:(void)
+EXTI9_5_IRQHandler	.\stm32f10x_it.c	/^void EXTI9_5_IRQHandler(void)		   \/*{{{*\/$/;"	f	signature:(void)
+EnableMotorInterrupt	.\motor.h	38;"	d
+Ex1Fan_Pin	.\hardwareDef.h	21;"	d
+Ex1Heat_Pin	.\hardwareDef.h	22;"	d
+Ex1_Port	.\hardwareDef.h	24;"	d
+ExtruderIOinit	.\extruderOutput.c	/^void ExtruderIOinit(void)\/*{{{*\/$/;"	f	signature:(void)
+ExtruderIOinit	.\extruderOutput.h	/^void ExtruderIOinit(void);$/;"	p	signature:(void)
+FILAMENT_DONE	.\menu.h	/^    FILAMENT_DONE,$/;"	e	enum:FilamentStates
+FILAMENT_EXIT	.\menu.h	/^    FILAMENT_EXIT$/;"	e	enum:FilamentStates
+FILAMENT_EXPLAIN2	.\menu.h	/^    FILAMENT_EXPLAIN2,$/;"	e	enum:FilamentStates
+FILAMENT_EXPLAIN3	.\menu.h	/^    FILAMENT_EXPLAIN3,$/;"	e	enum:FilamentStates
+FILAMENT_EXPLAIN4	.\menu.h	/^    FILAMENT_EXPLAIN4,$/;"	e	enum:FilamentStates
+FILAMENT_HEATING	.\menu.h	/^    FILAMENT_HEATING,$/;"	e	enum:FilamentStates
+FILAMENT_HEAT_BAR	.\menu.h	/^    FILAMENT_HEAT_BAR,$/;"	e	enum:FilamentStates
+FILAMENT_LEFT_FOR	.\menu.h	/^	FILAMENT_LEFT_FOR,$/;"	e	enum:FilamentScript
+FILAMENT_LEFT_REV	.\menu.h	/^    FILAMENT_LEFT_REV,	$/;"	e	enum:FilamentScript
+FILAMENT_OK	.\menu.h	/^    FILAMENT_OK,$/;"	e	enum:FilamentStates
+FILAMENT_RIGHT_FOR	.\menu.h	/^	FILAMENT_RIGHT_FOR,$/;"	e	enum:FilamentScript
+FILAMENT_RIGHT_REV	.\menu.h	/^    FILAMENT_RIGHT_REV,$/;"	e	enum:FilamentScript
+FILAMENT_START	.\menu.h	/^    FILAMENT_START,$/;"	e	enum:FilamentStates
+FILAMENT_STARTUP_DUAL	.\menu.h	/^	FILAMENT_STARTUP_DUAL,$/;"	e	enum:FilamentScript
+FILAMENT_STARTUP_SINGLE	.\menu.h	/^	FILAMENT_STARTUP_SINGLE,$/;"	e	enum:FilamentScript
+FILAMENT_STOP	.\menu.h	/^    FILAMENT_STOP,$/;"	e	enum:FilamentStates
+FILAMENT_TUG	.\menu.h	/^    FILAMENT_TUG,$/;"	e	enum:FilamentStates
+FILAMENT_WAIT	.\menu.h	/^    FILAMENT_WAIT,$/;"	e	enum:FilamentStates
+FLASH_SPI_Config	.\flash_spi.c	/^void FLASH_SPI_Config(void)$/;"	f	signature:(void)
+FLASH_SPI_Config	.\flash_spi.h	/^void FLASH_SPI_Config(void);$/;"	p	signature:(void)
+FilamentScript	.\menu.h	/^enum FilamentScript{\/*{{{*\/$/;"	g
+FilamentStates	.\menu.h	/^enum FilamentStates{\/*{{{*\/$/;"	g
+GLOBAL_DEFINE_H	.\globalDef.h	4;"	d
+HBP_Pin	.\hardwareDef.h	23;"	d
+HBP_Port	.\hardwareDef.h	25;"	d
+HOMING	.\command.h	/^	HOMING,$/;"	e	enum:__anon1
+HOST_CMD_ABORT	.\commandDefine.h	54;"	d
+HOST_CMD_BUILD_END_NOTIFICATION	.\commandDefine.h	117;"	d
+HOST_CMD_BUILD_START_NOTIFICATION	.\commandDefine.h	116;"	d
+HOST_CMD_CAPTURE_TO_FILE	.\commandDefine.h	63;"	d
+HOST_CMD_CHANGE_TOOL	.\commandDefine.h	92;"	d
+HOST_CMD_CLEAR_BUFFER	.\commandDefine.h	50;"	d
+HOST_CMD_DEBUG_ECHO	.\commandDefine.h	119;"	d
+HOST_CMD_DELAY	.\commandDefine.h	91;"	d
+HOST_CMD_DISPLAY_MESSAGE	.\commandDefine.h	111;"	d
+HOST_CMD_ENABLE_AXES	.\commandDefine.h	95;"	d
+HOST_CMD_END_CAPTURE	.\commandDefine.h	64;"	d
+HOST_CMD_EXTENDED_STOP	.\commandDefine.h	81;"	d
+HOST_CMD_FIND_AXES_MAXIMUM	.\commandDefine.h	90;"	d
+HOST_CMD_FIND_AXES_MINIMUM	.\commandDefine.h	89;"	d
+HOST_CMD_GET_BUFFER_SIZE	.\commandDefine.h	49;"	d
+HOST_CMD_GET_BUILD_NAME	.\commandDefine.h	78;"	d
+HOST_CMD_GET_COMMUNICATION_STATS	.\commandDefine.h	83;"	d
+HOST_CMD_GET_DBG_REG	.\commandDefine.h	76;"	d
+HOST_CMD_GET_POSITION	.\commandDefine.h	51;"	d
+HOST_CMD_GET_POSITION_EXT	.\commandDefine.h	80;"	d
+HOST_CMD_GET_RANGE	.\commandDefine.h	52;"	d
+HOST_CMD_INIT	.\commandDefine.h	47;"	d
+HOST_CMD_IS_FINISHED	.\commandDefine.h	58;"	d
+HOST_CMD_NEXT_FILENAME	.\commandDefine.h	73;"	d
+HOST_CMD_PAUSE	.\commandDefine.h	55;"	d
+HOST_CMD_PAUSE_FOR_BUTTON	.\commandDefine.h	110;"	d
+HOST_CMD_PLAYBACK_CAPTURE	.\commandDefine.h	65;"	d
+HOST_CMD_PROBE	.\commandDefine.h	56;"	d
+HOST_CMD_QUEUE_POINT_ABS	.\commandDefine.h	87;"	d
+HOST_CMD_QUEUE_POINT_EXT	.\commandDefine.h	98;"	d
+HOST_CMD_QUEUE_POINT_NEW	.\commandDefine.h	101;"	d
+HOST_CMD_QUEUE_SONG	.\commandDefine.h	113;"	d
+HOST_CMD_READ_EEPROM	.\commandDefine.h	59;"	d
+HOST_CMD_RECALL_HOME_POSITION	.\commandDefine.h	103;"	d
+HOST_CMD_RESET	.\commandDefine.h	69;"	d
+HOST_CMD_RESET_TO_FACTORY	.\commandDefine.h	114;"	d
+HOST_CMD_SET_BEEP	.\commandDefine.h	107;"	d
+HOST_CMD_SET_BUILD_PERCENT	.\commandDefine.h	112;"	d
+HOST_CMD_SET_POSITION	.\commandDefine.h	88;"	d
+HOST_CMD_SET_POSITION_EXT	.\commandDefine.h	99;"	d
+HOST_CMD_SET_POT_VALUE	.\commandDefine.h	105;"	d
+HOST_CMD_SET_RANGE	.\commandDefine.h	53;"	d
+HOST_CMD_SET_RGB_LED	.\commandDefine.h	106;"	d
+HOST_CMD_STORE_HOME_POSITION	.\commandDefine.h	102;"	d
+HOST_CMD_TOOL_COMMAND	.\commandDefine.h	94;"	d
+HOST_CMD_TOOL_QUERY	.\commandDefine.h	57;"	d
+HOST_CMD_VERSION	.\commandDefine.h	43;"	d
+HOST_CMD_WAIT_FOR_PLATFORM	.\commandDefine.h	96;"	d
+HOST_CMD_WAIT_FOR_TOOL	.\commandDefine.h	93;"	d
+HOST_CMD_WRITE_EEPROM	.\commandDefine.h	60;"	d
+HOST_H	.\host.h	19;"	d
+HOST_STATE_BUILDING	.\host.h	/^        HOST_STATE_BUILDING         = 1,$/;"	e	enum:HostStateEnum
+HOST_STATE_BUILDING_FROM_SD	.\host.h	/^        HOST_STATE_BUILDING_FROM_SD = 2,$/;"	e	enum:HostStateEnum
+HOST_STATE_BUILDING_ONBOARD	.\host.h	/^        HOST_STATE_BUILDING_ONBOARD = 5,$/;"	e	enum:HostStateEnum
+HOST_STATE_CANCEL_BUILD	.\host.h	/^        HOST_STATE_CANCEL_BUILD		= 4,$/;"	e	enum:HostStateEnum
+HOST_STATE_ERROR	.\host.h	/^        HOST_STATE_ERROR            = 3,$/;"	e	enum:HostStateEnum
+HOST_STATE_HEAT_SHUTDOWN	.\host.h	/^        HOST_STATE_HEAT_SHUTDOWN = 6,$/;"	e	enum:HostStateEnum
+HOST_STATE_READY	.\host.h	/^        HOST_STATE_READY            = 0,$/;"	e	enum:HostStateEnum
+HardFault_Handler	.\stm32f10x_it.c	/^void HardFault_Handler(void)$/;"	f	signature:(void)
+HardFault_Handler	.\stm32f10x_it.h	/^void HardFault_Handler(void);$/;"	p	signature:(void)
+HeaterBoardTherm_Pin	.\hardwareDef.h	34;"	d
+HeaterBoardTherm_Port	.\hardwareDef.h	35;"	d
+HostState	.\host.h	/^}HostState;\/*}}}*\/$/;"	t	typeref:enum:HostStateEnum
+HostStateEnum	.\host.h	/^typedef enum HostStateEnum {\/*{{{*\/$/;"	g
+INT32_MAX	.\motor.c	43;"	d	file:
+INTERVAL_IN_MICROSECONDS	.\globalDef.h	11;"	d
+JUST_TEST_PID	.\main.c	38;"	d	file:
+LCD_1LINE	.\lcdSerial.h	60;"	d
+LCD_2LINE	.\lcdSerial.h	59;"	d
+LCD_4BITMODE	.\lcdSerial.h	58;"	d
+LCD_5x10DOTS	.\lcdSerial.h	61;"	d
+LCD_5x8DOTS	.\lcdSerial.h	62;"	d
+LCD_8BITMODE	.\lcdSerial.h	57;"	d
+LCD_BLINKOFF	.\lcdSerial.h	48;"	d
+LCD_BLINKON	.\lcdSerial.h	47;"	d
+LCD_CLEARDISPLAY	.\lcdSerial.h	27;"	d
+LCD_CURSORMOVE	.\lcdSerial.h	52;"	d
+LCD_CURSOROFF	.\lcdSerial.h	46;"	d
+LCD_CURSORON	.\lcdSerial.h	45;"	d
+LCD_CURSORSHIFT	.\lcdSerial.h	31;"	d
+LCD_DB4	.\hardwareDef.h	79;"	d
+LCD_DB5	.\hardwareDef.h	80;"	d
+LCD_DB6	.\hardwareDef.h	81;"	d
+LCD_DB7	.\hardwareDef.h	82;"	d
+LCD_DISPLAYCONTROL	.\lcdSerial.h	30;"	d
+LCD_DISPLAYMOVE	.\lcdSerial.h	51;"	d
+LCD_DISPLAYOFF	.\lcdSerial.h	44;"	d
+LCD_DISPLAYON	.\lcdSerial.h	43;"	d
+LCD_E	.\hardwareDef.h	85;"	d
+LCD_ENTRYLEFT	.\lcdSerial.h	38;"	d
+LCD_ENTRYMODESET	.\lcdSerial.h	29;"	d
+LCD_ENTRYRIGHT	.\lcdSerial.h	37;"	d
+LCD_ENTRYSHIFTDECREMENT	.\lcdSerial.h	40;"	d
+LCD_ENTRYSHIFTINCREMENT	.\lcdSerial.h	39;"	d
+LCD_FUNCTIONSET	.\lcdSerial.h	32;"	d
+LCD_MOVELEFT	.\lcdSerial.h	54;"	d
+LCD_MOVERIGHT	.\lcdSerial.h	53;"	d
+LCD_MaxItem	.\menu.h	23;"	d
+LCD_Port	.\hardwareDef.h	78;"	d
+LCD_RETURNHOME	.\lcdSerial.h	28;"	d
+LCD_RS	.\hardwareDef.h	83;"	d
+LCD_RW	.\hardwareDef.h	84;"	d
+LCD_SCREEN_HEIGHT	.\hardwareDef.h	191;"	d
+LCD_SCREEN_WIDTH	.\hardwareDef.h	190;"	d
+LCD_SETCGRAMADDR	.\lcdSerial.h	33;"	d
+LCD_SETDDRAMADDR	.\lcdSerial.h	34;"	d
+LED1_OFF	.\main.c	34;"	d	file:
+LED1_ON	.\main.c	35;"	d	file:
+LED_BLINK	.\globalDef.h	22;"	d
+LED_OFF	.\globalDef.h	20;"	d
+LED_ON	.\globalDef.h	21;"	d
+LIQUID_CRYSTAL_HH	.\lcdSerial.h	19;"	d
+Led_Config	.\main.c	/^void Led_Config(void);$/;"	p	file:	signature:(void)
+Led_Config	.\main.c	/^void Led_Config(void)\/*{{{*\/$/;"	f	signature:(void)
+MAX_FILE_LEN	.\host.c	/^const int MAX_FILE_LEN = MAX_PACKET_PAYLOAD-1;$/;"	v
+MAX_PACKET_PAYLOAD	.\globalDef.h	42;"	d
+MIN	.\menu.c	48;"	d	file:
+MOTOR_H	.\motor.h	19;"	d
+MOVING	.\command.h	/^	MOVING,$/;"	e	enum:__anon1
+MainMenuItemNum	.\menu.c	37;"	d	file:
+MemManage_Handler	.\stm32f10x_it.c	/^void MemManage_Handler(void)$/;"	f	signature:(void)
+MemManage_Handler	.\stm32f10x_it.h	/^void MemManage_Handler(void);$/;"	p	signature:(void)
+MenuItem	.\menu.h	/^}MenuItem;$/;"	t	typeref:struct:str_MenuItem
+MenuState	.\menu.c	/^enum MenuState{NormalMenu=0,SdPrintHeat,SdPrintCancel,SdPrintFinish,$/;"	g	file:
+Menu_SuccessState	.\menu.c	/^enum Menu_SuccessState{menu_Success,menu_Fail,menu_SecondFail};$/;"	g	file:
+NMI_Handler	.\stm32f10x_it.c	/^void NMI_Handler(void)$/;"	f	signature:(void)
+NMI_Handler	.\stm32f10x_it.h	/^void NMI_Handler(void);$/;"	p	signature:(void)
+NO_RELEASE	.\SPI_SD_driver.h	18;"	d
+NormalMenu	.\menu.c	/^enum MenuState{NormalMenu=0,SdPrintHeat,SdPrintCancel,SdPrintFinish,$/;"	e	enum:MenuState	file:
+OutputEx1_Pwm	.\tempature.c	32;"	d	file:
+OutputScreen	.\menu.c	51;"	d	file:
+PT2_THRESHOLD	.\command.c	381;"	d	file:
+PendSV_Handler	.\stm32f10x_it.c	/^void PendSV_Handler(void)$/;"	f	signature:(void)
+PendSV_Handler	.\stm32f10x_it.h	/^void PendSV_Handler(void);$/;"	p	signature:(void)
+PreheatMenuItemNum	.\menu.c	39;"	d	file:
+READY	.\command.h	/^	READY,$/;"	e	enum:__anon1
+RELEASE	.\SPI_SD_driver.h	19;"	d
+SDCARD_OPER_H	.\sdCardOper.h	3;"	d
+SD_CS_DISABLE	.\SPI_SD_driver.h	43;"	d
+SD_CS_ENABLE	.\SPI_SD_driver.h	42;"	d
+SD_DET	.\SPI_SD_driver.h	46;"	d
+SD_ERR_CARD_LOCKED	.\sdCardOper.h	/^  SD_ERR_CARD_LOCKED      = 6,  \/\/\/< Card is locked, writing forbidden$/;"	e	enum:__anon2
+SD_ERR_FILE_NOT_FOUND	.\sdCardOper.h	/^  SD_ERR_FILE_NOT_FOUND   = 7,  \/\/\/< Could not find specific file$/;"	e	enum:__anon2
+SD_ERR_GENERIC	.\sdCardOper.h	/^  SD_ERR_GENERIC          = 8,  \/\/\/< General error$/;"	e	enum:__anon2
+SD_ERR_INIT_FAILED	.\sdCardOper.h	/^  SD_ERR_INIT_FAILED      = 2,  \/\/\/< SD card initialization failed$/;"	e	enum:__anon2
+SD_ERR_NO_CARD_PRESENT	.\sdCardOper.h	/^  SD_ERR_NO_CARD_PRESENT  = 1,  \/\/\/< No SD card is inserted in the slot$/;"	e	enum:__anon2
+SD_ERR_NO_ROOT	.\sdCardOper.h	/^  SD_ERR_NO_ROOT          = 5,  \/\/\/< No root directory found$/;"	e	enum:__anon2
+SD_ERR_OPEN_FILESYSTEM	.\sdCardOper.h	/^  SD_ERR_OPEN_FILESYSTEM  = 4,  \/\/\/< Couldn't open the FAT16 filesystem --$/;"	e	enum:__anon2
+SD_ERR_PARTITION_READ	.\sdCardOper.h	/^  SD_ERR_PARTITION_READ   = 3,  \/\/\/< Couldn't read the card's partition table$/;"	e	enum:__anon2
+SD_ERR_VOLUME_TOO_BIG	.\sdCardOper.h	/^  SD_ERR_VOLUME_TOO_BIG	  = 10  \/\/\/< the SD card filesystem is too large$/;"	e	enum:__anon2
+SD_GetCID	.\SPI_SD_driver.c	/^u8 SD_GetCID(u8 *cid_data)$/;"	f	signature:(u8 *cid_data)
+SD_GetCID	.\SPI_SD_driver.h	/^u8 SD_GetCID(u8 *cid_data);                     \/\/¶ÁSD¿¨CID$/;"	p	signature:(u8 *cid_data)
+SD_GetCSD	.\SPI_SD_driver.c	/^u8 SD_GetCSD(u8 *csd_data)$/;"	f	signature:(u8 *csd_data)
+SD_GetCSD	.\SPI_SD_driver.h	/^u8 SD_GetCSD(u8 *csd_data);                     \/\/¶ÁSD¿¨CSD$/;"	p	signature:(u8 *csd_data)
+SD_GetCapacity	.\SPI_SD_driver.c	/^u32 SD_GetCapacity(void)$/;"	f	signature:(void)
+SD_GetCapacity	.\SPI_SD_driver.h	/^u32 SD_GetCapacity(void);                       \/\/È¡SD¿¨ÈÝÁ¿$/;"	p	signature:(void)
+SD_Init	.\SPI_SD_driver.c	/^u8 SD_Init(void)$/;"	f	signature:(void)
+SD_Init	.\SPI_SD_driver.h	/^u8 SD_Init(void);                               \/\/SD¿¨³õÊ¼»¯$/;"	p	signature:(void)
+SD_ReadMultiBlock	.\SPI_SD_driver.c	/^u8 SD_ReadMultiBlock(u32 sector, u8 *buffer, u8 count)$/;"	f	signature:(u32 sector, u8 *buffer, u8 count)
+SD_ReadMultiBlock	.\SPI_SD_driver.h	/^u8 SD_ReadMultiBlock(u32 sector, u8 *buffer, u8 count); \/\/¶Á¶à¸ösector$/;"	p	signature:(u32 sector, u8 *buffer, u8 count)
+SD_ReadSingleBlock	.\SPI_SD_driver.c	/^u8 SD_ReadSingleBlock(u32 sector, u8 *buffer)$/;"	f	signature:(u32 sector, u8 *buffer)
+SD_ReadSingleBlock	.\SPI_SD_driver.h	/^u8 SD_ReadSingleBlock(u32 sector, u8 *buffer);  \/\/¶ÁÒ»¸ösector$/;"	p	signature:(u32 sector, u8 *buffer)
+SD_ReceiveData	.\SPI_SD_driver.c	/^u8 SD_ReceiveData(u8 *data, u16 len, u8 release)$/;"	f	signature:(u8 *data, u16 len, u8 release)
+SD_ReceiveData	.\SPI_SD_driver.h	/^u8 SD_ReceiveData(u8 *data, u16 len, u8 release);\/\/SD¿¨¶ÁÊý¾Ý$/;"	p	signature:(u8 *data, u16 len, u8 release)
+SD_SUCCESS	.\sdCardOper.h	/^  SD_SUCCESS              = 0,  \/\/\/< Operation succeeded$/;"	e	enum:__anon2
+SD_SendCommand	.\SPI_SD_driver.c	/^u8 SD_SendCommand(u8 cmd, u32 arg, u8 crc)$/;"	f	signature:(u8 cmd, u32 arg, u8 crc)
+SD_SendCommand	.\SPI_SD_driver.h	/^u8 SD_SendCommand(u8 cmd, u32 arg, u8 crc);     \/\/SD¿¨·¢ËÍÒ»¸öÃüÁî$/;"	p	signature:(u8 cmd, u32 arg, u8 crc)
+SD_SendCommand_NoDeassert	.\SPI_SD_driver.c	/^u8 SD_SendCommand_NoDeassert(u8 cmd, u32 arg, u8 crc)$/;"	f	signature:(u8 cmd, u32 arg, u8 crc)
+SD_SendCommand_NoDeassert	.\SPI_SD_driver.h	/^u8 SD_SendCommand_NoDeassert(u8 cmd, u32 arg, u8 crc);$/;"	p	signature:(u8 cmd, u32 arg, u8 crc)
+SD_TYPE_MMC	.\SPI_SD_driver.h	8;"	d
+SD_TYPE_V1	.\SPI_SD_driver.h	9;"	d
+SD_TYPE_V2	.\SPI_SD_driver.h	10;"	d
+SD_TYPE_V2HC	.\SPI_SD_driver.h	11;"	d
+SD_Type	.\SPI_SD_driver.c	/^u8  SD_Type=0;$/;"	v
+SD_WaitReady	.\SPI_SD_driver.c	/^u8 SD_WaitReady(void)$/;"	f	signature:(void)
+SD_WaitReady	.\SPI_SD_driver.h	/^u8 SD_WaitReady(void);                          \/\/µÈ´ýSD¿¨¾ÍÐ÷$/;"	p	signature:(void)
+SD_WriteMultiBlock	.\SPI_SD_driver.c	/^u8 SD_WriteMultiBlock(u32 sector, const u8 *data, u8 count)$/;"	f	signature:(u32 sector, const u8 *data, u8 count)
+SD_WriteMultiBlock	.\SPI_SD_driver.h	/^u8 SD_WriteMultiBlock(u32 sector, const u8 *data, u8 count);  \/\/Ð´¶à¸ösector$/;"	p	signature:(u32 sector, const u8 *data, u8 count)
+SD_WriteSingleBlock	.\SPI_SD_driver.c	/^u8 SD_WriteSingleBlock(u32 sector, const u8 *data)$/;"	f	signature:(u32 sector, const u8 *data)
+SD_WriteSingleBlock	.\SPI_SD_driver.h	/^u8 SD_WriteSingleBlock(u32 sector, const u8 *buffer); \/\/Ð´Ò»¸ösector$/;"	p	signature:(u32 sector, const u8 *buffer)
+SHARED_COMMANDS_H_	.\commandDefine.h	20;"	d
+SLAVE_CMD_ABORT	.\commandDefine.h	148;"	d
+SLAVE_CMD_FILAMENT_STATUS	.\commandDefine.h	140;"	d
+SLAVE_CMD_GET_BUILD_NAME	.\commandDefine.h	157;"	d
+SLAVE_CMD_GET_MOTOR_1_PWM	.\commandDefine.h	143;"	d
+SLAVE_CMD_GET_MOTOR_1_RPM	.\commandDefine.h	141;"	d
+SLAVE_CMD_GET_MOTOR_2_PWM	.\commandDefine.h	144;"	d
+SLAVE_CMD_GET_MOTOR_2_RPM	.\commandDefine.h	142;"	d
+SLAVE_CMD_GET_PID_STATE	.\commandDefine.h	160;"	d
+SLAVE_CMD_GET_PLATFORM_SP	.\commandDefine.h	155;"	d
+SLAVE_CMD_GET_PLATFORM_TEMP	.\commandDefine.h	152;"	d
+SLAVE_CMD_GET_SP	.\commandDefine.h	154;"	d
+SLAVE_CMD_GET_TEMP	.\commandDefine.h	126;"	d
+SLAVE_CMD_GET_TOOL_STATUS	.\commandDefine.h	159;"	d
+SLAVE_CMD_INIT	.\commandDefine.h	125;"	d
+SLAVE_CMD_IS_PLATFORM_READY	.\commandDefine.h	158;"	d
+SLAVE_CMD_IS_TOOL_READY	.\commandDefine.h	146;"	d
+SLAVE_CMD_LIGHT_INDICATOR_LED	.\commandDefine.h	161;"	d
+SLAVE_CMD_PAUSE_UNPAUSE	.\commandDefine.h	147;"	d
+SLAVE_CMD_READ_FROM_EEPROM	.\commandDefine.h	149;"	d
+SLAVE_CMD_SELECT_TOOL	.\commandDefine.h	145;"	d
+SLAVE_CMD_SET_MOTOR_1_DIR	.\commandDefine.h	132;"	d
+SLAVE_CMD_SET_MOTOR_1_PWM	.\commandDefine.h	128;"	d
+SLAVE_CMD_SET_MOTOR_1_RPM	.\commandDefine.h	130;"	d
+SLAVE_CMD_SET_MOTOR_2_DIR	.\commandDefine.h	133;"	d
+SLAVE_CMD_SET_MOTOR_2_PWM	.\commandDefine.h	129;"	d
+SLAVE_CMD_SET_MOTOR_2_RPM	.\commandDefine.h	131;"	d
+SLAVE_CMD_SET_PLATFORM_TEMP	.\commandDefine.h	153;"	d
+SLAVE_CMD_SET_SERVO_1_POS	.\commandDefine.h	138;"	d
+SLAVE_CMD_SET_SERVO_2_POS	.\commandDefine.h	139;"	d
+SLAVE_CMD_SET_TEMP	.\commandDefine.h	127;"	d
+SLAVE_CMD_TOGGLE_FAN	.\commandDefine.h	136;"	d
+SLAVE_CMD_TOGGLE_MOTOR_1	.\commandDefine.h	134;"	d
+SLAVE_CMD_TOGGLE_MOTOR_2	.\commandDefine.h	135;"	d
+SLAVE_CMD_TOGGLE_VALVE	.\commandDefine.h	137;"	d
+SLAVE_CMD_VERSION	.\commandDefine.h	124;"	d
+SLAVE_CMD_WRITE_TO_EEPROM	.\commandDefine.h	150;"	d
+SPI2Byte	.\flash_spi.c	/^static u8 SPI2Byte(u8 byte)$/;"	f	file:	signature:(u8 byte)
+SPI2Byte	.\flash_spi.h	/^static u8 SPI2Byte(u8 byte);$/;"	p	signature:(u8 byte)
+SPI_Configuration	.\SPI_SD_driver.c	/^void SPI_Configuration(void)$/;"	f	signature:(void)
+SPI_Configuration	.\SPI_SD_driver.h	/^void SPI_Configuration(void);$/;"	p	signature:(void)
+SPI_ReadWriteByte	.\SPI_SD_driver.c	/^static u8 SPI_ReadWriteByte(u8 TxData)$/;"	f	file:	signature:(u8 TxData)
+SPI_ReadWriteByte	.\SPI_SD_driver.h	/^u8 SPI_ReadWriteByte(u8 TxData);                \/\/SPI×ÜÏß¶ÁÐ´Ò»¸ö×Ö½Ú$/;"	p	signature:(u8 TxData)
+SPI_SPEED_HIGH	.\SPI_SD_driver.h	15;"	d
+SPI_SPEED_LOW	.\SPI_SD_driver.h	14;"	d
+SPI_SetSpeed	.\SPI_SD_driver.c	/^void SPI_SetSpeed(u8 SpeedSet)$/;"	f	signature:(u8 SpeedSet)
+SPI_SetSpeed	.\SPI_SD_driver.h	/^void SPI_SetSpeed(u8 SpeedSet);$/;"	p	signature:(u8 SpeedSet)
+SST25BY	.\flash_spi.c	/^u8 SST25BY(void)$/;"	f	signature:(void)
+SST25BY	.\flash_spi.h	/^u8 SST25BY(void);$/;"	p	signature:(void)
+SST25ByteProgram	.\flash_spi.c	/^static void SST25ByteProgram(u32 addr,u8 byte)$/;"	f	file:	signature:(u32 addr,u8 byte)
+SST25ByteProgram	.\flash_spi.h	/^void SST25ByteProgram(u32 addr,u8 byte); $/;"	p	signature:(u32 addr,u8 byte)
+SST25ChipErase	.\flash_spi.c	/^void SST25ChipErase(void)$/;"	f	signature:(void)
+SST25ChipErase	.\flash_spi.h	/^void SST25ChipErase(void);$/;"	p	signature:(void)
+SST25Read	.\flash_spi.c	/^void SST25Read(u32 addr,u8* p_data,u32 no)$/;"	f	signature:(u32 addr,u8* p_data,u32 no)
+SST25Read	.\flash_spi.h	/^void SST25Read(u32 addr,u8* p_data,u32 no);$/;"	p	signature:(u32 addr,u8* p_data,u32 no)
+SST25ReadID	.\flash_spi.c	/^u16 SST25ReadID(void)$/;"	f	signature:(void)
+SST25ReadID	.\flash_spi.h	/^u16 SST25ReadID(void);$/;"	p	signature:(void)
+SST25ReadL	.\flash_spi.c	/^void SST25ReadL(u32 addr,u8* p_data,u32 no)$/;"	f	signature:(u32 addr,u8* p_data,u32 no)
+SST25ReadL	.\flash_spi.h	/^void SST25ReadL(u32 addr,u8* p_data,u32 no);$/;"	p	signature:(u32 addr,u8* p_data,u32 no)
+SST25SectorErase	.\flash_spi.c	/^void SST25SectorErase(u32 addr)$/;"	f	signature:(u32 addr)
+SST25SectorErase	.\flash_spi.h	/^void SST25SectorErase(u32 addr);$/;"	p	signature:(u32 addr)
+SST25WPEN	.\flash_spi.c	/^void SST25WPEN(void)$/;"	f	signature:(void)
+SST25WPEN	.\flash_spi.h	/^void SST25WPEN(void);$/;"	p	signature:(void)
+SST25WRDI	.\flash_spi.c	/^void SST25WRDI(void)$/;"	f	signature:(void)
+SST25WRDI	.\flash_spi.h	/^void SST25WRDI(void);$/;"	p	signature:(void)
+SST25WREN	.\flash_spi.c	/^void SST25WREN(void)$/;"	f	signature:(void)
+SST25WREN	.\flash_spi.h	/^void SST25WREN(void);$/;"	p	signature:(void)
+SST25Write	.\flash_spi.c	/^void SST25Write(u32 addr,u8* p_data,u32 no)$/;"	f	signature:(u32 addr,u8* p_data,u32 no)
+SST25Write	.\flash_spi.h	/^void SST25Write(u32 addr,u8* p_data,u32 no);$/;"	p	signature:(u32 addr,u8* p_data,u32 no)
+SST25WriteEn	.\flash_spi.c	/^void SST25WriteEn(void)$/;"	f	signature:(void)
+SST25WriteEn	.\flash_spi.h	/^void SST25WriteEn(void);$/;"	p	signature:(void)
+SSTCmd1	.\flash_spi.c	/^void SSTCmd1(u8 cmd)$/;"	f	signature:(u8 cmd)
+SSTCmd1	.\flash_spi.h	/^void SSTCmd1(u8 cmd);$/;"	p	signature:(u8 cmd)
+SSTCmd2	.\flash_spi.c	/^void SSTCmd2(u8 cmd,u8 data)$/;"	f	signature:(u8 cmd,u8 data)
+SSTCmd2	.\flash_spi.h	/^void SSTCmd2(u8 cmd,u8 data);$/;"	p	signature:(u8 cmd,u8 data)
+SSTCmd4	.\flash_spi.c	/^void SSTCmd4(u8 cmd,u8 *addr)$/;"	f	signature:(u8 cmd,u8 *addr)
+SSTCmd4	.\flash_spi.h	/^void SSTCmd4(u8 cmd,u8 *addr);$/;"	p	signature:(u8 cmd,u8 *addr)
+SSTCmd4bs	.\flash_spi.c	/^void SSTCmd4bs(u8 cmd,u8* addr,u8* data,u32 no)$/;"	f	signature:(u8 cmd,u8* addr,u8* data,u32 no)
+SSTCmd4bs	.\flash_spi.h	/^void SSTCmd4bs(u8 cmd,u8* addr,u8* data,u32 no);$/;"	p	signature:(u8 cmd,u8* addr,u8* data,u32 no)
+SSTCmdb1b	.\flash_spi.c	/^u8 SSTCmdb1b(u8 cmd)$/;"	f	signature:(u8 cmd)
+SSTCmdb1b	.\flash_spi.h	/^u8 SSTCmdb1b(u8 cmd);$/;"	p	signature:(u8 cmd)
+SST_DESELECT	.\flash_spi.h	6;"	d
+SST_SELECT	.\flash_spi.h	5;"	d
+STEPPER_COUNT	.\globalDef.h	50;"	d
+STEPPER_COUNT	.\hardwareDef.h	187;"	d
+SVC_Handler	.\stm32f10x_it.c	/^void SVC_Handler(void)$/;"	f	signature:(void)
+SVC_Handler	.\stm32f10x_it.h	/^void SVC_Handler(void);$/;"	p	signature:(void)
+SaveMaxLevel	.\menu.c	66;"	d	file:
+SdErrorCode	.\sdCardOper.h	/^} SdErrorCode;\/*}}}*\/$/;"	t	typeref:enum:__anon2
+SdFile_MaxCnt	.\menu.c	78;"	d	file:
+SdMenuItemNum	.\menu.c	41;"	d	file:
+SdPrintCancel	.\menu.c	/^enum MenuState{NormalMenu=0,SdPrintHeat,SdPrintCancel,SdPrintFinish,$/;"	e	enum:MenuState	file:
+SdPrintFinish	.\menu.c	/^enum MenuState{NormalMenu=0,SdPrintHeat,SdPrintCancel,SdPrintFinish,$/;"	e	enum:MenuState	file:
+SdPrintHeat	.\menu.c	/^enum MenuState{NormalMenu=0,SdPrintHeat,SdPrintCancel,SdPrintFinish,$/;"	e	enum:MenuState	file:
+SplashMenuItemNum	.\menu.c	40;"	d	file:
+SysTick_Handler	.\stm32f10x_it.c	/^void SysTick_Handler(void)$/;"	f	signature:(void)
+SysTick_Handler	.\stm32f10x_it.h	/^void SysTick_Handler(void);$/;"	p	signature:(void)
+SysTick_Set	.\main.c	/^void SysTick_Set(void);$/;"	p	file:	signature:(void)
+SysTick_Set	.\main.c	/^void SysTick_Set(void)\/*{{{*\/$/;"	f	signature:(void)
+TIM3_IRQHandler	.\stm32f10x_it.c	/^void TIM3_IRQHandler()\/*{{{*\/$/;"	f
+TIM4_IRQHandler	.\timerset.c	/^void TIM4_IRQHandler()\/*{{{*\/$/;"	f
+TIMEOUT_H	.\timeout.h	19;"	d
+Temperature_Target_Hysteresis	.\tempature.c	30;"	d	file:
+TestSst	.\flash_spi.c	/^void TestSst(void)$/;"	f	signature:(void)
+TestSst	.\flash_spi.h	/^void TestSst(void);	\/\/²âÊÔSST$/;"	p	signature:(void)
+ThermcoupleCs_Pin	.\hardwareDef.h	28;"	d
+ThermcoupleCs_Port	.\hardwareDef.h	31;"	d
+ThermcoupleDo_Pin	.\hardwareDef.h	29;"	d
+ThermcoupleDo_Port	.\hardwareDef.h	32;"	d
+ThermcoupleSck_Pin	.\hardwareDef.h	27;"	d
+ThermcoupleSck_Port	.\hardwareDef.h	30;"	d
+Tim1_config	.\extruderOutput.c	/^void Tim1_config(void)\/*{{{*\/$/;"	f	signature:(void)
+Tim1_config	.\extruderOutput.h	/^void Tim1_config(void);$/;"	p	signature:(void)
+Tim2_config	.\extruderOutput.c	/^void Tim2_config(void)\/*{{{*\/$/;"	f	signature:(void)
+Tim2_config	.\extruderOutput.h	/^void Tim2_config(void);$/;"	p	signature:(void)
+Tim3IntrInit	.\button.c	/^void Tim3IntrInit(void)\/*{{{*\/$/;"	f	signature:(void)
+Tim3IntrInit	.\button.h	/^void Tim3IntrInit(void);$/;"	p	signature:(void)
+Tim4IntrInit	.\timerset.c	/^void Tim4IntrInit(void)\/*{{{*\/$/;"	f	signature:(void)
+Tim4IntrInit	.\timerset.h	/^void Tim4IntrInit(void);$/;"	p	signature:(void)
+Timeout	.\timeout.h	/^}Timeout;$/;"	t	typeref:struct:TimeoutStruct
+TimeoutStruct	.\timeout.h	/^typedef struct TimeoutStruct$/;"	s
+TimeoutStruct::active	.\timeout.h	/^	bool active;$/;"	m	struct:TimeoutStruct	access:public
+TimeoutStruct::duration	.\timeout.h	/^	u32 duration;$/;"	m	struct:TimeoutStruct	access:public
+TimeoutStruct::elapsed	.\timeout.h	/^	bool elapsed;$/;"	m	struct:TimeoutStruct	access:public
+TimeoutStruct::startStamp	.\timeout.h	/^	u32 startStamp;$/;"	m	struct:TimeoutStruct	access:public
+TimingDelay	.\globalDef.c	/^vu32 TimingDelay;$/;"	v
+USART1_IRQHandler	.\USART.c	/^void USART1_IRQHandler(void) 	 \/\/´®¿ÚÖÐ¶Ï½ÓÊÕ\/*{{{*\/$/;"	f	signature:(void)
+USART_Config	.\USART.c	/^void USART_Config(void)\/*{{{*\/$/;"	f	signature:(void)
+USART_Config	.\USART.h	/^void USART_Config(void); \/\/´®¿ÚÉèÖÃ$/;"	p	signature:(void)
+USART_IT_Config	.\USART.c	/^void USART_IT_Config(void)\/*{{{*\/$/;"	f	signature:(void)
+USART_IT_Config	.\USART.h	/^void USART_IT_Config(void);\/\/´®¿ÚÖÐ¶ÏÉèÖÃ£¬¿ÉÑ¡$/;"	p	signature:(void)
+USER_INPUT_TIMEOUT	.\globalDef.h	34;"	d
+US_HOME_AXES	.\utilityScripts.h	/^	US_HOME_AXES = 0,$/;"	e	enum:utilityScriptName
+US_LEVEL_PLATE_SECOND	.\utilityScripts.h	/^	US_LEVEL_PLATE_SECOND$/;"	e	enum:utilityScriptName
+US_LEVEL_PLATE_STARTUP	.\utilityScripts.h	/^	US_LEVEL_PLATE_STARTUP = 1,$/;"	e	enum:utilityScriptName
+US_TOOLHEAD_CALIBRATE	.\utilityScripts.h	/^	US_TOOLHEAD_CALIBRATE = 2,$/;"	e	enum:utilityScriptName
+UsageFault_Handler	.\stm32f10x_it.c	/^void UsageFault_Handler(void)$/;"	f	signature:(void)
+UsageFault_Handler	.\stm32f10x_it.h	/^void UsageFault_Handler(void);$/;"	p	signature:(void)
+UtilityCancel	.\menu.c	/^	UtilityHomeAxes,UtilityLevelPlate,UtilityCancel,CancelMenuState};$/;"	e	enum:MenuState	file:
+UtilityHomeAxes	.\menu.c	/^	UtilityHomeAxes,UtilityLevelPlate,UtilityCancel,CancelMenuState};$/;"	e	enum:MenuState	file:
+UtilityLevelPlate	.\menu.c	/^	UtilityHomeAxes,UtilityLevelPlate,UtilityCancel,CancelMenuState};$/;"	e	enum:MenuState	file:
+UtilityMenuItemNum	.\menu.c	42;"	d	file:
+VERSION	.\globalDef.h	30;"	d
+WAIT_ON_BUTTON	.\command.h	/^	WAIT_ON_BUTTON,$/;"	e	enum:__anon1
+WAIT_ON_PLATFORM	.\command.h	/^	WAIT_ON_PLATFORM,$/;"	e	enum:__anon1
+WAIT_ON_TOOL	.\command.h	/^	WAIT_ON_TOOL,$/;"	e	enum:__anon1
+WelcomeMenuItemNum	.\menu.c	38;"	d	file:
+X_Axis	.\globalDef.h	52;"	d
+X_Axis	.\hardwareDef.h	66;"	d
+X_Axis_Dir_Pin	.\hardwareDef.h	41;"	d
+X_Axis_Dir_Port	.\hardwareDef.h	42;"	d
+X_Axis_Min_Pin	.\hardwareDef.h	72;"	d
+X_Axis_Min_Port	.\hardwareDef.h	71;"	d
+X_Axis_Start_Pin	.\hardwareDef.h	37;"	d
+X_Axis_Start_Port	.\hardwareDef.h	38;"	d
+X_Axis_Step_Pin	.\hardwareDef.h	39;"	d
+X_Axis_Step_Port	.\hardwareDef.h	40;"	d
+Y_Axis	.\globalDef.h	53;"	d
+Y_Axis	.\hardwareDef.h	67;"	d
+Y_Axis_Dir_Pin	.\hardwareDef.h	49;"	d
+Y_Axis_Dir_Port	.\hardwareDef.h	50;"	d
+Y_Axis_Min_Pin	.\hardwareDef.h	74;"	d
+Y_Axis_Min_Port	.\hardwareDef.h	73;"	d
+Y_Axis_Start_Pin	.\hardwareDef.h	45;"	d
+Y_Axis_Start_Port	.\hardwareDef.h	46;"	d
+Y_Axis_Step_Pin	.\hardwareDef.h	47;"	d
+Y_Axis_Step_Port	.\hardwareDef.h	48;"	d
+Z_Axis	.\globalDef.h	54;"	d
+Z_Axis	.\hardwareDef.h	68;"	d
+Z_Axis_Dir_Pin	.\hardwareDef.h	56;"	d
+Z_Axis_Dir_Port	.\hardwareDef.h	57;"	d
+Z_Axis_Max_Pin	.\hardwareDef.h	76;"	d
+Z_Axis_Max_Port	.\hardwareDef.h	75;"	d
+Z_Axis_Start_Pin	.\hardwareDef.h	52;"	d
+Z_Axis_Start_Port	.\hardwareDef.h	53;"	d
+Z_Axis_Step_Pin	.\hardwareDef.h	54;"	d
+Z_Axis_Step_Port	.\hardwareDef.h	55;"	d
+_SPI_SD_DRIVER_H_	.\SPI_SD_driver.h	2;"	d
+__FLASH_SPI_H	.\flash_spi.h	2;"	d
+__HARDWARE_DEF__HH__	.\hardwareDef.h	19;"	d
+__H_BUTTON_H__	.\button.h	19;"	d
+__H_MAINBOARD_H__	.\mainboard.h	20;"	d
+__H_MENU_H__	.\menu.h	19;"	d
+__H_UTILITYSCRIPT_H__	.\utilityScripts.h	19;"	d
+__STM32F10x_CONF_H	.\stm32f10x_conf.h	23;"	d
+__STM32F10x_IT_H	.\stm32f10x_it.h	24;"	d
+__Tempature__HH	.\tempature.h	19;"	d
+__USART_CONFIG_H	.\USART.h	2;"	d
+active	.\timeout.h	/^	bool active;$/;"	m	struct:TimeoutStruct	access:public
+addMsg	.\menu.c	/^void addMsg(char str[],uint8_t options,uint8_t xpos,uint8_t ypos)\/*{{{*\/$/;"	f	signature:(char str[],uint8_t options,uint8_t xpos,uint8_t ypos)
+addMsg	.\menu.h	/^void addMsg(char str[],uint8_t options,uint8_t xpos,uint8_t ypos);$/;"	p	signature:(char str[],uint8_t options,uint8_t xpos,uint8_t ypos)
+arrCntSaveMenu	.\menu.c	/^uint8_t arrCntSaveMenu=0;$/;"	v
+assert_failed	.\stm32f10x_conf.h	/^  void assert_failed(uint8_t* file, uint32_t line);$/;"	p	signature:(uint8_t* file, uint32_t line)
+assert_param	.\stm32f10x_conf.h	68;"	d
+assert_param	.\stm32f10x_conf.h	72;"	d
+axisAstepTimeout	.\timeout.c	/^Timeout axisAstepTimeout;$/;"	v
+axisAstepTimeoutNum	.\globalDef.h	36;"	d
+axisCheckEndstop	.\motor.c	/^bool axisCheckEndstop ( u8 idx,bool isHoming )\/*{{{*\/$/;"	f	signature:( u8 idx,bool isHoming )
+axisCheckEndstop	.\motor.h	/^bool axisCheckEndstop ( u8 idx,bool isHoming);$/;"	p	signature:( u8 idx,bool isHoming)
+axisCounter	.\motor.c	/^volatile int axisCounter[STEPPER_COUNT];$/;"	v
+axisDelta	.\motor.c	/^volatile int axisDelta[STEPPER_COUNT];$/;"	v
+axisDirection	.\motor.c	/^volatile bool axisDirection[STEPPER_COUNT];$/;"	v
+axisDoHoming	.\motor.c	/^bool axisDoHoming(u8 idx,int intervals)\/*{{{*\/$/;"	f	signature:(u8 idx,int intervals)
+axisDoHoming	.\motor.h	/^bool axisDoHoming(u8 idx,int intervals);$/;"	p	signature:(u8 idx,int intervals)
+axisDoInterrupt	.\motor.c	/^bool axisDoInterrupt(u8 idx,int intervals)\/*{{{*\/$/;"	f	signature:(u8 idx,int intervals)
+axisDoInterrupt	.\motor.h	/^bool axisDoInterrupt(u8 idx,int intervals);$/;"	p	signature:(u8 idx,int intervals)
+axisEnabled	.\motor.c	/^volatile u8 axisEnabled;			\/\/Planner axis enabled$/;"	v
+axisHardwareEnabled	.\motor.c	/^volatile u8 axisHardwareEnabled;		\/\/Hardware axis enabled$/;"	v
+axisInvertDirection	.\motor.c	/^bool axisInvertDirection[STEPPER_COUNT];$/;"	v
+axisPosition	.\motor.c	/^volatile int axisPosition[STEPPER_COUNT];$/;"	v
+axisReset	.\motor.c	/^void axisReset(u8 idx)\/*{{{*\/$/;"	f	signature:(u8 idx)
+axisReset	.\motor.h	/^void axisReset(u8 idx);$/;"	p	signature:(u8 idx)
+axisSetDirection	.\motor.c	/^void axisSetDirection(u8 idx)\/*{{{*\/$/;"	f	signature:(u8 idx)
+axisSetDirection	.\motor.h	/^void axisSetDirection(u8 idx);$/;"	p	signature:(u8 idx)
+axisSetEnablePin	.\motor.c	/^void axisSetEnablePin(u8 idx,bool isEnable)\/*{{{*\/$/;"	f	signature:(u8 idx,bool isEnable)
+axisSetEnablePin	.\motor.h	/^void axisSetEnablePin(u8 idx,bool isEnable);$/;"	p	signature:(u8 idx,bool isEnable)
+axisSetStart	.\motor.c	/^void axisSetStart(uint8_t idx,bool isEnable)\/\/åº•å±‚é©±åŠ¨startå¼•è„š\/*{{{*\/$/;"	f	signature:(uint8_t idx,bool isEnable)
+axisSetStart	.\motor.h	/^void axisSetStart(uint8_t idx,bool isEnable);$/;"	p	signature:(uint8_t idx,bool isEnable)
+axisSetStepPin	.\motor.c	/^void axisSetStepPin(u8 idx,bool out)\/*{{{*\/$/;"	f	signature:(u8 idx,bool out)
+axisSetStepPin	.\motor.h	/^void axisSetStepPin(u8 idx,bool out);$/;"	p	signature:(u8 idx,bool out)
+axisSetTarget	.\motor.c	/^void axisSetTarget(u8 idx,int32_t target_in,bool relative) \/*{{{*\/$/;"	f	signature:(u8 idx,int32_t target_in,bool relative)
+axisSetTarget	.\motor.c	/^void axisSetTarget(u8 idx,int32_t target_in,bool relative); $/;"	p	file:	signature:(u8 idx,int32_t target_in,bool relative)
+axisTarget	.\motor.c	/^volatile int32_t axisTarget[STEPPER_COUNT];$/;"	v
+axis_homing	.\motor.c	/^volatile bool    axis_homing[STEPPER_COUNT];$/;"	v
+bool	.\globalDef.h	45;"	d
+bool	.\hardwareDef.h	194;"	d
+br	.\main.c	/^UINT br;$/;"	v
+btnCode	.\button.c	/^enum BtnCode btnCode;$/;"	v	typeref:enum:BtnCode
+btnExtiInit	.\button.c	/^void btnExtiInit(void) \/\/°´¼ü²ÉÓÃÍâ²¿ÖÐ¶Ï£¬²¢ÓÃ¶¨Ê±Æ÷ÖÐ¶ÏÈ¥ÖØ¸´¼ì²âÒÔ·À¶¶\/*{{{*\/$/;"	f	signature:(void)
+btnExtiInit	.\button.h	/^void btnExtiInit(void);$/;"	p	signature:(void)
+btnGPIOinit	.\button.c	/^void btnGPIOinit(void)\/*{{{*\/$/;"	f	signature:(void)
+btnGPIOinit	.\button.h	/^void btnGPIOinit(void);$/;"	p	signature:(void)
+btnShakeCode	.\stm32f10x_it.c	/^uint8_t btnShakeCode=0;$/;"	v
+calculatePID	.\tempature.c	/^int calculatePID(int e)\/*{{{*\/$/;"	f	signature:(int e)
+calculatePID	.\tempature.h	/^int calculatePID(int e);$/;"	p	signature:(int e)
+cancelFaceDispFunc	.\menu.c	/^bool cancelFaceDispFunc(void);$/;"	p	file:	signature:(void)
+cancelFaceDispFunc	.\menu.c	/^bool cancelFaceDispFunc(void)\/*{{{*\/$/;"	f	signature:(void)
+cicleBufStruct	.\circleBuf.h	/^typedef struct cicleBufStruct$/;"	s
+cicleBufStruct::data	.\circleBuf.h	/^	BufDataType data[COMMAND_BUFFER_SIZE]; \/\/\/ Pointer to buffer data$/;"	m	struct:cicleBufStruct	access:public
+cicleBufStruct::length	.\circleBuf.h	/^	volatile BufSizeType length; \/\/\/ Current circleBufLength of valid buffer data$/;"	m	struct:cicleBufStruct	access:public
+cicleBufStruct::overflow	.\circleBuf.h	/^	volatile bool overflow; \/\/\/ Overflow indicator$/;"	m	struct:cicleBufStruct	access:public
+cicleBufStruct::size	.\circleBuf.h	/^	BufSizeType size; \/\/\/ Size of this buffer$/;"	m	struct:cicleBufStruct	access:public
+cicleBufStruct::start	.\circleBuf.h	/^	volatile BufSizeType start; \/\/\/ Current circleBufStart point of valid bufffer data$/;"	m	struct:cicleBufStruct	access:public
+cicleBufStruct::underflow	.\circleBuf.h	/^	volatile bool underflow; \/\/\/ Underflow indicator$/;"	m	struct:cicleBufStruct	access:public
+circleBuf	.\circleBuf.h	/^}circleBuf;$/;"	t	typeref:struct:cicleBufStruct
+circleBufGetData	.\circleBuf.c	/^BufDataType* circleBufGetData(circleBuf* pCB,BufSizeType index)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB,BufSizeType index)
+circleBufGetData	.\circleBuf.h	/^BufDataType* circleBufGetData(circleBuf* pCB,BufSizeType index);$/;"	p	signature:(circleBuf* pCB,BufSizeType index)
+circleBufGetLength	.\circleBuf.c	/^BufSizeType  circleBufGetLength(circleBuf* pCB)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB)
+circleBufGetLength	.\circleBuf.h	/^BufSizeType  circleBufGetLength(circleBuf* pCB);$/;"	p	signature:(circleBuf* pCB)
+circleBufGetRemainCap	.\circleBuf.c	/^BufSizeType  circleBufGetRemainCap(circleBuf* pCB)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB)
+circleBufGetRemainCap	.\circleBuf.h	/^BufSizeType  circleBufGetRemainCap(circleBuf* pCB);$/;"	p	signature:(circleBuf* pCB)
+circleBufHasOverflow	.\circleBuf.c	/^bool circleBufHasOverflow(circleBuf* pCB)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB)
+circleBufHasOverflow	.\circleBuf.h	/^bool circleBufHasOverflow(circleBuf* pCB);$/;"	p	signature:(circleBuf* pCB)
+circleBufHasUnderflow	.\circleBuf.c	/^bool circleBufHasUnderflow(circleBuf* pCB)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB)
+circleBufHasUnderflow	.\circleBuf.h	/^bool circleBufHasUnderflow(circleBuf* pCB);$/;"	p	signature:(circleBuf* pCB)
+circleBufInit	.\circleBuf.c	/^void circleBufInit(circleBuf* pCB)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB)
+circleBufInit	.\circleBuf.h	/^void circleBufInit(circleBuf* pCB);$/;"	p	signature:(circleBuf* pCB)
+circleBufIsEmpty	.\circleBuf.c	/^bool circleBufIsEmpty(circleBuf* pCB)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB)
+circleBufIsEmpty	.\circleBuf.h	/^bool circleBufIsEmpty(circleBuf* pCB);$/;"	p	signature:(circleBuf* pCB)
+circleBufPop	.\circleBuf.c	/^BufDataType circleBufPop(circleBuf* pCB)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB)
+circleBufPop	.\circleBuf.h	/^BufDataType circleBufPop(circleBuf* pCB);$/;"	p	signature:(circleBuf* pCB)
+circleBufPopSets	.\circleBuf.c	/^void circleBufPopSets(circleBuf* pCB,BufSizeType sz)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB,BufSizeType sz)
+circleBufPopSets	.\circleBuf.h	/^void circleBufPopSets(circleBuf* pCB,BufSizeType sz);$/;"	p	signature:(circleBuf* pCB,BufSizeType sz)
+circleBufPush	.\circleBuf.c	/^void circleBufPush(circleBuf* pCB,BufDataType b)\/*{{{*\/$/;"	f	signature:(circleBuf* pCB,BufDataType b)
+circleBufPush	.\circleBuf.h	/^void circleBufPush(circleBuf* pCB,BufDataType b);$/;"	p	signature:(circleBuf* pCB,BufDataType b)
+cmdBtnWaitTimeout	.\command.c	/^Timeout cmdBtnWaitTimeout;$/;"	v
+cmdBuf	.\command.c	/^circleBuf cmdBuf;$/;"	v
+cmdCnt	.\command.c	/^u32 cmdCnt;$/;"	v
+cmdDelayTimeout	.\command.c	/^Timeout cmdDelayTimeout;$/;"	v
+cmdHeatShutdown	.\command.c	/^bool cmdHeatShutdown;$/;"	v
+cmdHomingTimeout	.\command.c	/^Timeout cmdHomingTimeout;$/;"	v
+cmdMode	.\command.c	/^CommandState cmdMode = WAIT_ON_TOOL;$/;"	v
+cmdPaused	.\command.c	/^bool cmdPaused;$/;"	v
+cmdSdByteCnt	.\command.c	/^u32 cmdSdByteCnt;$/;"	v
+cmdSdFailCnt	.\command.c	/^u16 cmdSdFailCnt;$/;"	v
+cmdSdReset	.\command.c	/^bool cmdSdReset;$/;"	v
+cmdToolWaitTimeout	.\command.c	/^Timeout cmdToolWaitTimeout;$/;"	v
+commandIsEmpty	.\command.c	/^bool commandIsEmpty(void);$/;"	p	file:	signature:(void)
+commandIsEmpty	.\command.h	/^bool commandIsEmpty(void);$/;"	p	signature:(void)
+commandIsReady	.\command.c	/^bool commandIsReady(void);$/;"	p	file:	signature:(void)
+commandIsReady	.\command.h	/^bool commandIsReady(void);$/;"	p	signature:(void)
+commandPush	.\command.c	/^void commandPush(void);$/;"	p	file:	signature:(void)
+commandPush	.\command.h	/^void commandPush(void);$/;"	p	signature:(void)
+commandReset	.\command.c	/^void commandReset(void)\/*{{{*\/$/;"	f	signature:(void)
+commandReset	.\command.h	/^void commandReset( void);$/;"	p	signature:( void)
+commonMenuDispFunc	.\menu.c	/^void commonMenuDispFunc() \/\/Ö»´¦ÀíÉÏÏÂ¼üµÄÏÔÊ¾µÄ£¬¶øÇÒ²»ÐÞ¸ÄbtnCode\/*{{{*\/$/;"	f
+commonMenuFunc	.\menu.c	/^void commonMenuFunc() \/\/Í¨ÓÃ²Ëµ¥°´¼ü´¦Àíº¯Êý \/\/{{{$/;"	f
+commonMenuFunc	.\menu.h	/^void commonMenuFunc(void);$/;"	p	signature:(void)
+curMenuState	.\menu.c	/^enum MenuState curMenuState=NormalMenu;$/;"	v	typeref:enum:MenuState
+curPlatformTemp	.\tempature.c	/^int curPlatformTemp;$/;"	v
+currentTemperature	.\tempature.c	/^int currentTemperature;$/;"	v
+currentToolIndex	.\command.c	/^uint8_t currentToolIndex = 0;$/;"	v
+cursor	.\menu.c	/^uint8_t cursor=0;$/;"	v
+dControl	.\tempature.c	/^int pControl,dControl,iControl,totalControl;$/;"	v
+data	.\circleBuf.h	/^	BufDataType data[COMMAND_BUFFER_SIZE]; \/\/\/ Pointer to buffer data$/;"	m	struct:cicleBufStruct	access:public
+dda_position	.\motor.c	/^volatile int dda_position[STEPPER_COUNT];$/;"	v
+delay_ms	.\globalDef.c	/^void delay_ms(u32 nTime)$/;"	f	signature:(u32 nTime)
+delay_ms	.\globalDef.h	/^void delay_ms(u32 nTime);$/;"	p	signature:(u32 nTime)
+delay_us	.\globalDef.c	/^void delay_us(u32 nTime)$/;"	f	signature:(u32 nTime)
+delay_us	.\globalDef.h	/^void delay_us(u32 nTime);$/;"	p	signature:(u32 nTime)
+delay_us	.\lcdSerial.c	/^extern void delay_us(u32 nTime);$/;"	p	file:	signature:(u32 nTime)
+deltaSum	.\tempature.c	/^int deltaTemp,deltaTempOld,deltaSum;$/;"	v
+deltaTemp	.\tempature.c	/^int deltaTemp,deltaTempOld,deltaSum;$/;"	v
+deltaTempOld	.\tempature.c	/^int deltaTemp,deltaTempOld,deltaSum;$/;"	v
+diffHistory	.\tempature.c	/^int diffHistory[DiffSamples];$/;"	v
+diffIdx	.\tempature.c	/^int diffIdx,diffSum;$/;"	v
+diffSum	.\tempature.c	/^int diffIdx,diffSum;$/;"	v
+dispString	.\menu.h	/^	char * dispString;$/;"	m	struct:str_MenuItem	access:public
+duration	.\timeout.h	/^	u32 duration;$/;"	m	struct:TimeoutStruct	access:public
+elapsed	.\timeout.h	/^	bool elapsed;$/;"	m	struct:TimeoutStruct	access:public
+endStopFlagTmpDebug	.\motor.c	/^bool endStopFlagTmpDebug;$/;"	v
+ex1FanCircleNum	.\main.c	/^int32_t ex1FanCircleNum;$/;"	v
+ex1FanDutyNum	.\main.c	/^int32_t ex1FanDutyNum;$/;"	v
+ex1HeatCircleNum	.\main.c	/^int32_t ex1HeatCircleNum;$/;"	v
+ex1HeatDutyNum	.\main.c	/^int32_t ex1HeatDutyNum;$/;"	v
+ex1HeatPwmTimeout	.\timeout.c	/^Timeout ex1HeatPwmTimeout;$/;"	v
+ex1HeatTimeoutNum	.\globalDef.h	35;"	d
+ex1HeaterOut	.\tempature.c	/^int ex1HeaterOut;$/;"	v
+ex_isHeating	.\tempature.c	/^bool ex_isHeating=false;$/;"	v
+ex_isPaused	.\tempature.c	/^bool ex_isPaused=false;$/;"	v
+ex_newTargetReached	.\tempature.c	/^bool ex_newTargetReached=false;$/;"	v
+extruderHasReachedTargetTemp	.\tempature.c	/^bool extruderHasReachedTargetTemp(void)\/*{{{*\/$/;"	f	signature:(void)
+extruderHasReachedTargetTemp	.\tempature.h	/^bool extruderHasReachedTargetTemp(void);$/;"	p	signature:(void)
+extruderSetHeatPause	.\tempature.c	/^void extruderSetHeatPause(bool enable)\/*{{{*\/$/;"	f	signature:(bool enable)
+extruderSetHeatPause	.\tempature.h	/^void extruderSetHeatPause(bool enable);$/;"	p	signature:(bool enable)
+extruderStartHeat	.\tempature.c	/^void extruderStartHeat(void)\/*{{{*\/$/;"	f	signature:(void)
+extruderStartHeat	.\tempature.h	/^void extruderStartHeat(void);$/;"	p	signature:(void)
+extruderStopHeat	.\tempature.c	/^void extruderStopHeat(void)\/*{{{*\/$/;"	f	signature:(void)
+extruderStopHeat	.\tempature.h	/^void extruderStopHeat(void);$/;"	p	signature:(void)
+false	.\globalDef.h	47;"	d
+false	.\hardwareDef.h	196;"	d
+fgetc	.\USART.c	/^int fgetc(FILE *f)$/;"	f	signature:(FILE *f)
+fgetc	.\USART.h	/^int fgetc(FILE *f); \/\/fgetcÖØ¶¨Ïò$/;"	p	signature:(FILE *f)
+filamentMenu	.\menu.c	/^MenuItem filamentMenu[]=\/*{{{*\/$/;"	v
+filamentMenuFunc	.\menu.c	/^void filamentMenuFunc()\/*{{{*\/$/;"	f
+filamentMenuFunc	.\menu.h	/^void filamentMenuFunc(void);$/;"	p	signature:(void)
+filamentMenuUpdate	.\menu.c	/^void filamentMenuUpdate(void)	\/*{{{*\/$/;"	f	signature:(void)
+filamentMenuUpdate	.\menu.h	/^void filamentMenuUpdate(void);$/;"	p	signature:(void)
+filamentStartMotor	.\menu.c	/^void filamentStartMotor(void)\/*{{{*\/$/;"	f	signature:(void)
+filamentStartMotor	.\menu.h	/^void filamentStartMotor(void);$/;"	p	signature:(void)
+filamentState	.\menu.c	/^static enum FilamentStates filamentState=FILAMENT_HEATING;$/;"	v	typeref:enum:FilamentStates	file:
+filamentStopMotor	.\menu.c	/^void filamentStopMotor(void)\/*{{{*\/$/;"	f	signature:(void)
+filamentStopMotor	.\menu.h	/^void filamentStopMotor(void);$/;"	p	signature:(void)
+filamentTimeout	.\menu.c	/^static Timeout filamentTimeout;$/;"	v	file:
+file	.\main.c	/^FIL file;$/;"	v
+finishPrintMenu	.\menu.c	/^MenuItem finishPrintMenu[]=\/*{{{*\/$/;"	v
+firmwareVersion	.\globalDef.c	/^const u16 firmwareVersion=5;$/;"	v
+fputc	.\USART.c	/^int fputc(int ch, FILE *f)$/;"	f	signature:(int ch, FILE *f)
+fputc	.\USART.h	/^int fputc(int ch, FILE *f);    \/\/fputcÖØ¶¨Ïò$/;"	p	signature:(int ch, FILE *f)
+fs	.\main.c	/^FATFS fs;$/;"	v
+getCurExtruderTempature	.\tempature.c	/^int getCurExtruderTempature(void)	\/*{{{*\/$/;"	f	signature:(void)
+getCurExtruderTempature	.\tempature.h	/^int getCurExtruderTempature(void);$/;"	p	signature:(void)
+getCurPlatformTempature	.\tempature.c	/^int getCurPlatformTempature(void)\/*{{{*\/$/;"	f	signature:(void)
+getCurPlatformTempature	.\tempature.h	/^int getCurPlatformTempature(void);$/;"	p	signature:(void)
+haha	.\main.c	/^char haha[]="good Lucky,RY(But RY, it should be 'Luck' instead of 'Lucky'!";$/;"	v
+hbpHeatCircleNum	.\main.c	/^int32_t hbpHeatCircleNum;$/;"	v
+hbpHeatDutyNum	.\main.c	/^int32_t hbpHeatDutyNum;$/;"	v
+heaterBoardIOinit	.\heaterBoard.c	/^void heaterBoardIOinit(void)\/*{{{*\/$/;"	f	signature:(void)
+heaterBoardIOinit	.\heaterBoard.h	/^void heaterBoardIOinit(void);$/;"	p	signature:(void)
+heaterBoardTimeout	.\timeout.c	/^Timeout heaterBoardTimeout;$/;"	v
+heatingMenuUpdate	.\menu.c	/^void heatingMenuUpdate(void)\/*{{{*\/$/;"	f	signature:(void)
+heatingMenuUpdate	.\menu.h	/^void heatingMenuUpdate(void);$/;"	p	signature:(void)
+holdZ	.\motor.c	/^bool holdZ=false;$/;"	v
+hostBuildName	.\host.c	/^char hostBuildName[MAX_FILE_LEN];$/;"	v
+hostCurrentState	.\host.c	/^HostState hostCurrentState;$/;"	v
+hostHandleBuildStartNotification	.\host.c	/^void hostHandleBuildStartNotification(circleBuf* buf) \/*{{{*\/$/;"	f	signature:(circleBuf* buf)
+hostHandleBuildStartNotification	.\host.h	/^void hostHandleBuildStartNotification(circleBuf* buf);$/;"	p	signature:(circleBuf* buf)
+hostHandleBuildStopNotification	.\host.c	/^void hostHandleBuildStopNotification(uint8_t stopFlags) \/*{{{*\/$/;"	f	signature:(uint8_t stopFlags)
+hostMachineName	.\host.c	/^char hostMachineName[]="Replicator";$/;"	v
+hostStartBuildFromSD	.\host.c	/^SdErrorCode hostStartBuildFromSD(void)\/*{{{*\/$/;"	f	signature:(void)
+hostStartBuildFromSD	.\host.h	/^SdErrorCode hostStartBuildFromSD(void);$/;"	p	signature:(void)
+hostStartOnboardBuild	.\host.c	/^void hostStartOnboardBuild(uint8_t build)\/*{{{*\/$/;"	f	signature:(uint8_t build)
+hostStartOnboardBuild	.\host.h	/^void hostStartOnboardBuild(uint8_t build);$/;"	p	signature:(uint8_t build)
+hostStopBuild	.\host.c	/^void hostStopBuild(void)\/*{{{*\/$/;"	f	signature:(void)
+hostStopBuild	.\host.h	/^void hostStopBuild(void);$/;"	p	signature:(void)
+iControl	.\tempature.c	/^int pControl,dControl,iControl,totalControl;$/;"	v
+isBypassPID	.\tempature.c	/^int isBypassPID=1;$/;"	v
+isCancel	.\menu.c	/^bool isCancel=false;$/;"	v
+isFilamentForward	.\menu.c	/^bool isFilamentForward=true;$/;"	v
+isNoise	.\stm32f10x_it.c	/^bool isNoise;$/;"	v
+isSdMenuFileInit	.\menu.c	/^bool isSdMenuFileInit=false;$/;"	v
+itemCnt	.\menu.h	/^	uint8_t itemCnt;$/;"	m	struct:str_MenuItem	access:public
+itemFunc	.\menu.h	/^	void (*itemFunc)();$/;"	m	struct:str_MenuItem	access:public
+j	.\main.c	/^u8 j=0;$/;"	v
+jumptoMenu	.\menu.c	/^void jumptoMenu(MenuItem * newMenu)\/\/Ìøµ½ÐÂµÄÄ¿Â¼£¬Ðè¸üÐÂmenu stack\/*{{{*\/$/;"	f	signature:(MenuItem * newMenu)
+kd	.\tempature.c	/^int kp=800,kd=700,ki=25;$/;"	v
+ki	.\tempature.c	/^int kp=800,kd=700,ki=25;$/;"	v
+kp	.\tempature.c	/^int kp=800,kd=700,ki=25;$/;"	v
+lcdSerialAutoscroll	.\lcdSerial.c	/^void lcdSerialAutoscroll(void) {$/;"	f	signature:(void)
+lcdSerialAutoscroll	.\lcdSerial.h	/^  void lcdSerialAutoscroll(void);$/;"	p	signature:(void)
+lcdSerialBegin	.\lcdSerial.c	/^void lcdSerialBegin(u8 cols, u8 lines)$/;"	f	signature:(u8 cols, u8 lines)
+lcdSerialBegin	.\lcdSerial.h	/^  void lcdSerialBegin(u8 cols, u8 rows);$/;"	p	signature:(u8 cols, u8 rows)
+lcdSerialBlink	.\lcdSerial.c	/^void lcdSerialBlink(void) {$/;"	f	signature:(void)
+lcdSerialBlink	.\lcdSerial.h	/^  void lcdSerialBlink(void);$/;"	p	signature:(void)
+lcdSerialCheckBusy	.\lcdSerial.c	/^bool lcdSerialCheckBusy(void)$/;"	f	signature:(void)
+lcdSerialCheckBusy	.\lcdSerial.h	/^bool lcdSerialCheckBusy(void);$/;"	p	signature:(void)
+lcdSerialClear	.\lcdSerial.c	/^void lcdSerialClear()$/;"	f
+lcdSerialClear	.\lcdSerial.h	/^  void lcdSerialClear(void);$/;"	p	signature:(void)
+lcdSerialCommand	.\lcdSerial.c	/^void lcdSerialCommand(u8 value) {$/;"	f	signature:(u8 value)
+lcdSerialCommand	.\lcdSerial.h	/^  void lcdSerialCommand(u8);$/;"	p	signature:(u8)
+lcdSerialCreateChar	.\lcdSerial.c	/^void lcdSerialCreateChar(u8 location, u8 charmap[]) $/;"	f	signature:(u8 location, u8 charmap[])
+lcdSerialCreateChar	.\lcdSerial.h	/^  void lcdSerialCreateChar(u8, u8[]);$/;"	p	signature:(u8, u8[])
+lcdSerialCursor	.\lcdSerial.c	/^void lcdSerialCursor(void) {$/;"	f	signature:(void)
+lcdSerialCursor	.\lcdSerial.h	/^  void lcdSerialCursor(void);$/;"	p	signature:(void)
+lcdSerialDisplay	.\lcdSerial.c	/^void lcdSerialDisplay(void) {$/;"	f	signature:(void)
+lcdSerialDisplay	.\lcdSerial.h	/^  void lcdSerialDisplay(void);$/;"	p	signature:(void)
+lcdSerialGPIOinit	.\lcdSerial.c	/^void lcdSerialGPIOinit(void)$/;"	f	signature:(void)
+lcdSerialGPIOinit	.\lcdSerial.h	/^  void lcdSerialGPIOinit(void);$/;"	p	signature:(void)
+lcdSerialHome	.\lcdSerial.c	/^void lcdSerialHome()$/;"	f
+lcdSerialHome	.\lcdSerial.h	/^  void lcdSerialHome(void);$/;"	p	signature:(void)
+lcdSerialInit	.\lcdSerial.c	/^void lcdSerialInit(void)$/;"	f	signature:(void)
+lcdSerialInit	.\lcdSerial.h	/^  void lcdSerialInit(void);$/;"	p	signature:(void)
+lcdSerialLeftToRight	.\lcdSerial.c	/^void lcdSerialLeftToRight(void) {$/;"	f	signature:(void)
+lcdSerialLeftToRight	.\lcdSerial.h	/^  void lcdSerialLeftToRight(void);$/;"	p	signature:(void)
+lcdSerialLoad	.\lcdSerial.c	/^void lcdSerialLoad(u8 value)$/;"	f	signature:(u8 value)
+lcdSerialLoad	.\lcdSerial.h	/^  void lcdSerialLoad(u8);$/;"	p	signature:(u8)
+lcdSerialNoAutoscroll	.\lcdSerial.c	/^void lcdSerialNoAutoscroll(void) {$/;"	f	signature:(void)
+lcdSerialNoAutoscroll	.\lcdSerial.h	/^  void lcdSerialNoAutoscroll(void);$/;"	p	signature:(void)
+lcdSerialNoBlink	.\lcdSerial.c	/^void lcdSerialNoBlink(void) {$/;"	f	signature:(void)
+lcdSerialNoBlink	.\lcdSerial.h	/^  void lcdSerialNoBlink(void);$/;"	p	signature:(void)
+lcdSerialNoCursor	.\lcdSerial.c	/^void lcdSerialNoCursor(void) {$/;"	f	signature:(void)
+lcdSerialNoCursor	.\lcdSerial.h	/^  void lcdSerialNoCursor(void);$/;"	p	signature:(void)
+lcdSerialNoDisplay	.\lcdSerial.c	/^void lcdSerialNoDisplay(void) {$/;"	f	signature:(void)
+lcdSerialNoDisplay	.\lcdSerial.h	/^  void lcdSerialNoDisplay(void);$/;"	p	signature:(void)
+lcdSerialRead	.\lcdSerial.c	/^void lcdSerialRead(u8 value, bool mode)$/;"	f	signature:(u8 value, bool mode)
+lcdSerialRightToLeft	.\lcdSerial.c	/^void lcdSerialRightToLeft(void) {$/;"	f	signature:(void)
+lcdSerialRightToLeft	.\lcdSerial.h	/^  void lcdSerialRightToLeft(void);$/;"	p	signature:(void)
+lcdSerialScrollDisplayLeft	.\lcdSerial.c	/^void lcdSerialScrollDisplayLeft(void) {$/;"	f	signature:(void)
+lcdSerialScrollDisplayLeft	.\lcdSerial.h	/^  void lcdSerialScrollDisplayLeft(void);$/;"	p	signature:(void)
+lcdSerialScrollDisplayRight	.\lcdSerial.c	/^void lcdSerialScrollDisplayRight(void) {$/;"	f	signature:(void)
+lcdSerialScrollDisplayRight	.\lcdSerial.h	/^  void lcdSerialScrollDisplayRight(void);$/;"	p	signature:(void)
+lcdSerialSend	.\lcdSerial.c	/^void lcdSerialSend(u8 value, bool mode)$/;"	f	signature:(u8 value, bool mode)
+lcdSerialSend	.\lcdSerial.h	/^  void lcdSerialSend(u8, bool);$/;"	p	signature:(u8, bool)
+lcdSerialSetCursor	.\lcdSerial.c	/^void lcdSerialSetCursor(u8 col, u8 row)$/;"	f	signature:(u8 col, u8 row)
+lcdSerialSetCursor	.\lcdSerial.h	/^  void lcdSerialSetCursor(u8, u8); $/;"	p	signature:(u8, u8)
+lcdSerialWrite	.\lcdSerial.c	/^void lcdSerialWrite(u8 value) {$/;"	f	signature:(u8 value)
+lcdSerialWrite	.\lcdSerial.h	/^  void lcdSerialWrite(u8);$/;"	p	signature:(u8)
+lcdSerialWriteInt	.\lcdSerial.c	/^void lcdSerialWriteInt(u16 value, u8 digits) {$/;"	f	signature:(u16 value, u8 digits)
+lcdSerialWriteInt	.\lcdSerial.h	/^  void lcdSerialWriteInt(u16 value, u8 digits);$/;"	p	signature:(u16 value, u8 digits)
+lcdSerialWriteLine	.\lcdSerial.c	/^char* lcdSerialWriteLine(char* message) {$/;"	f	signature:(char* message)
+lcdSerialWriteLine	.\lcdSerial.h	/^  char* lcdSerialWriteLine(char* message);$/;"	p	signature:(char* message)
+lcdSerialWriteString	.\lcdSerial.c	/^void lcdSerialWriteString(char message[]) {$/;"	f	signature:(char message[])
+lcdSerialWriteString	.\lcdSerial.h	/^  void lcdSerialWriteString(char message[]);$/;"	p	signature:(char message[])
+lcdSerial_displaycontrol	.\lcdSerial.c	/^u8 lcdSerial_displaycontrol;$/;"	v
+lcdSerial_displayfunction	.\lcdSerial.c	/^u8 lcdSerial_displayfunction;$/;"	v
+lcdSerial_displaymode	.\lcdSerial.c	/^u8 lcdSerial_displaymode;$/;"	v
+lcdSerial_initialized	.\lcdSerial.c	/^u8 lcdSerial_initialized;$/;"	v
+lcdSerial_numCols	.\lcdSerial.c	/^u8 lcdSerial_numLines,lcdSerial_numCols;$/;"	v
+lcdSerial_numLines	.\lcdSerial.c	/^u8 lcdSerial_numLines,lcdSerial_numCols;$/;"	v
+lcdSerial_xcursor	.\lcdSerial.c	/^u8 lcdSerial_xcursor;$/;"	v
+lcdSerial_ycursor	.\lcdSerial.c	/^u8 lcdSerial_ycursor;$/;"	v
+ledToggleTime	.\main.c	/^uint32_t ledToggleTime;$/;"	v
+ledToggleTimeout	.\timeout.c	/^Timeout ledToggleTimeout;$/;"	v
+length	.\circleBuf.h	/^	volatile BufSizeType length; \/\/\/ Current circleBufLength of valid buffer data$/;"	m	struct:cicleBufStruct	access:public
+main	.\main.c	/^int main()$/;"	f
+mainMenu	.\menu.c	/^MenuItem mainMenu[];$/;"	v
+mainMenu	.\menu.c	/^MenuItem mainMenu[]=  \/\/{{{$/;"	v
+mainMenuFunc	.\menu.c	/^void mainMenuFunc(void);$/;"	p	file:	signature:(void)
+mainMenuFunc	.\menu.c	/^void mainMenuFunc(void)\/*{{{*\/$/;"	f	signature:(void)
+maxTempControl	.\tempature.c	/^const int maxTempControl =40000;$/;"	v
+menuInit	.\menu.c	/^void menuInit()  \/\/{{{$/;"	f
+menuInit	.\menu.h	/^void menuInit(void);$/;"	p	signature:(void)
+menuUpdate	.\menu.c	/^void menuUpdate() \/\/¶¨Ê±¸üÐÂµ±Ç°Ä¿Â¼	\/*{{{*\/$/;"	f
+menuUpdateTimeout	.\timeout.c	/^Timeout menuUpdateTimeout;$/;"	v
+menu_Fail	.\menu.c	/^enum Menu_SuccessState{menu_Success,menu_Fail,menu_SecondFail};$/;"	e	enum:Menu_SuccessState	file:
+menu_SecondFail	.\menu.c	/^enum Menu_SuccessState{menu_Success,menu_Fail,menu_SecondFail};$/;"	e	enum:Menu_SuccessState	file:
+menu_Success	.\menu.c	/^enum Menu_SuccessState{menu_Success,menu_Fail,menu_SecondFail};$/;"	e	enum:Menu_SuccessState	file:
+menu_filamentSuccess	.\menu.c	/^uint8_t menu_filamentSuccess;$/;"	v
+menu_levelSuccess	.\menu.c	/^uint8_t menu_levelSuccess;$/;"	v
+menu_readyFail	.\menu.c	/^bool menu_readyFail=false;$/;"	v
+message	.\menu.c	/^static char message[100];$/;"	v	file:
+minTempControl	.\tempature.c	/^const int minTempControl =0;$/;"	v
+motorAbort	.\motor.c	/^void motorAbort(void) \/\/æ›´æ”¹motor is running\/homingçš„çŠ¶æ€\/*{{{*\/$/;"	f	signature:(void)
+motorAbort	.\motor.h	/^void motorAbort(void);$/;"	p	signature:(void)
+motorDefinePosition	.\motor.c	/^void motorDefinePosition(int* pPos)\/*{{{*\/$/;"	f	signature:(int* pPos)
+motorDefinePosition	.\motor.h	/^void motorDefinePosition(int* pPos);$/;"	p	signature:(int* pPos)
+motorDisable	.\motor.c	/^void motorDisable(void) \/\/Disableæ­¥è¿›ç”µæœºçš„ä½¿èƒ½å¼•è„š\/*{{{*\/$/;"	f	signature:(void)
+motorDisable	.\motor.h	/^void motorDisable(void);$/;"	p	signature:(void)
+motorDoInterrupt	.\motor.c	/^bool motorDoInterrupt(void)\/*{{{*\/$/;"	f	signature:(void)
+motorDoInterrupt	.\motor.h	/^bool motorDoInterrupt(void);$/;"	p	signature:(void)
+motorGPIOinit	.\motor.c	/^void motorGPIOinit(void)\/*{{{*\/$/;"	f	signature:(void)
+motorGPIOinit	.\motor.h	/^void motorGPIOinit(void);$/;"	p	signature:(void)
+motorIntervals	.\motor.c	/^volatile int motorIntervals;$/;"	v
+motorIntervalsRemaining	.\motor.c	/^volatile int motorIntervalsRemaining;$/;"	v
+motorIsHoming	.\motor.c	/^bool motorIsHoming;$/;"	v
+motorIsRunning	.\motor.c	/^bool motorIsRunning;$/;"	v
+motorSetTarget	.\motor.c	/^void motorSetTarget(int * pTarget,s32 dda_interval)\/*{{{*\/$/;"	f	signature:(int * pTarget,s32 dda_interval)
+motorSetTarget	.\motor.h	/^void motorSetTarget(int * pTarget,s32 dda_interval);$/;"	p	signature:(int * pTarget,s32 dda_interval)
+motorSetTargetNew	.\motor.c	/^void motorSetTargetNew(int* pTarget, int32_t us, uint8_t relative) \/*{{{*\/$/;"	f	signature:(int* pTarget, int32_t us, uint8_t relative)
+motorSetTargetNew	.\motor.h	/^void motorSetTargetNew(int* pTarget, int32_t us, uint8_t relative);$/;"	p	signature:(int* pTarget, int32_t us, uint8_t relative)
+motorStartHoming	.\motor.c	/^void motorStartHoming(bool maximums,uint8_t axes_enabled, uint32_t us_per_step) \/*{{{*\/$/;"	f	signature:(bool maximums,uint8_t axes_enabled, uint32_t us_per_step)
+motorStartHoming	.\motor.h	/^void motorStartHoming(bool maximums,uint8_t axes_enabled, uint32_t us_per_step);$/;"	p	signature:(bool maximums,uint8_t axes_enabled, uint32_t us_per_step)
+msgMenuFunc	.\menu.c	/^void msgMenuFunc(void);$/;"	p	file:	signature:(void)
+msgMenuFunc	.\menu.c	/^void msgMenuFunc(void)\/*{{{*\/$/;"	f	signature:(void)
+msgMenuUpdate	.\menu.c	/^void msgMenuUpdate(void);$/;"	p	file:	signature:(void)
+msgMenuUpdate	.\menu.c	/^void msgMenuUpdate(void)\/*{{{*\/$/;"	f	signature:(void)
+needsRedraw	.\menu.c	/^bool needsRedraw=false;$/;"	v
+oldTemparture	.\thermcouple.c	/^uint16_t oldTemparture;$/;"	v
+overflow	.\circleBuf.h	/^	volatile bool overflow; \/\/\/ Overflow indicator$/;"	m	struct:cicleBufStruct	access:public
+pArrCurMenuStart	.\menu.c	/^MenuItem * pArrCurMenuStart[SaveMaxLevel];$/;"	v
+pArrDispStart	.\menu.c	/^MenuItem * pArrDispStart[SaveMaxLevel];$/;"	v
+pChildMenu	.\menu.h	/^	struct str_MenuItem *pChildMenu;$/;"	m	struct:str_MenuItem	typeref:struct:str_MenuItem::str_MenuItem	access:public
+pControl	.\tempature.c	/^int pControl,dControl,iControl,totalControl;$/;"	v
+pCurItem	.\menu.c	/^MenuItem * pCurItem; \/\/ µ±Ç°Ñ¡ÖÐµÄ²Ëµ¥Ïî$/;"	v
+pCurMenuStartItem	.\menu.c	/^MenuItem * pCurMenuStartItem;\/\/ µ±Ç°²Ëµ¥ Êµ¼ÊµÄµÚÒ»Ïî$/;"	v
+pDispStartItem	.\menu.c	/^MenuItem * pDispStartItem; \/\/LCDÉÏÏÔÊ¾µÚÒ»ÐÐ¶ÔÓ¦µÄ²Ëµ¥Ïî$/;"	v
+pParentMenu	.\menu.h	/^	struct str_MenuItem *pParentMenu;$/;"	m	struct:str_MenuItem	typeref:struct:str_MenuItem::str_MenuItem	access:public
+periphInit	.\main.c	/^void periphInit(void);$/;"	p	file:	signature:(void)
+periphInit	.\main.c	/^void periphInit(void)\/*{{{*\/$/;"	f	signature:(void)
+pfHeatPwmTimeout	.\timeout.c	/^Timeout pfHeatPwmTimeout;$/;"	v
+pf_newTargetReached	.\tempature.c	/^bool pf_newTargetReached=false;$/;"	v
+pidReset	.\tempature.c	/^void pidReset(void)\/*{{{*\/$/;"	f	signature:(void)
+pidReset	.\tempature.h	/^void pidReset(void);$/;"	p	signature:(void)
+platformHasReachedTargetTemp	.\tempature.c	/^bool platformHasReachedTargetTemp(void)\/*{{{*\/$/;"	f	signature:(void)
+platformStartHeat	.\tempature.c	/^void platformStartHeat(void)\/*{{{*\/$/;"	f	signature:(void)
+platformStartHeat	.\tempature.h	/^void platformStartHeat(void);$/;"	p	signature:(void)
+platformStopHeat	.\tempature.c	/^void platformStopHeat(void)\/*{{{*\/$/;"	f	signature:(void)
+platformStopHeat	.\tempature.h	/^void platformStopHeat(void);$/;"	p	signature:(void)
+platformTempatureControl	.\tempature.c	/^void platformTempatureControl(void)\/*{{{*\/$/;"	f	signature:(void)
+platformTempatureControl	.\tempature.h	/^void platformTempatureControl(void);$/;"	p	signature:(void)
+pop16	.\command.c	/^int16_t pop16() \/*{{{*\/$/;"	f
+pop32	.\command.c	/^int32_t pop32() \/*{{{*\/$/;"	f
+pop8	.\command.c	/^uint8_t pop8()\/*{{{*\/$/;"	f
+popMenuStack	.\menu.c	/^void popMenuStack(void)\/*{{{*\/$/;"	f	signature:(void)
+preheatMenu	.\menu.c	/^MenuItem preheatMenu[]=		\/\/{{{$/;"	v
+processExtruderCommandPacket	.\command.c	/^bool processExtruderCommandPacket(void) \/*{{{*\/$/;"	f	signature:(void)
+pushMenuStack	.\menu.c	/^void pushMenuStack(MenuItem * pMenu)\/*{{{*\/$/;"	f	signature:(MenuItem * pMenu)
+res	.\main.c	/^FRESULT res;$/;"	v
+runBoardSlice	.\mainboard.c	/^void runBoardSlice(void)\/*{{{*\/$/;"	f	signature:(void)
+runBoardSlice	.\mainboard.h	/^void runBoardSlice(void);$/;"	p	signature:(void)
+runCmdSlice	.\command.c	/^void runCmdSlice(void)$/;"	f	signature:(void)
+runCmdSlice	.\command.h	/^void runCmdSlice(void);$/;"	p	signature:(void)
+runHostSlice	.\host.c	/^void runHostSlice(void)\/*{{{*\/$/;"	f	signature:(void)
+runHostSlice	.\host.h	/^void runHostSlice(void);$/;"	p	signature:(void)
+sdByte	.\command.c	/^uint8_t sdByte;$/;"	v
+sdByteCnt	.\command.c	/^u32 sdByteCnt;$/;"	v
+sdCardByteReadNum	.\sdCardOper.c	/^UINT  sdCardByteReadNum; $/;"	v
+sdCardCapturedBytes	.\sdCardOper.c	/^u32 sdCardCapturedBytes;$/;"	v
+sdCardDataBuf	.\sdCardOper.c	/^unsigned char sdCardDataBuf[512];$/;"	v
+sdCardDir	.\sdCardOper.c	/^DIR sdCardDir;$/;"	v
+sdCardFetchNextByte	.\sdCardOper.c	/^void sdCardFetchNextByte(void)\/*{{{*\/$/;"	f	signature:(void)
+sdCardFetchNextByte	.\sdCardOper.h	/^void sdCardFetchNextByte(void);$/;"	p	signature:(void)
+sdCardFile	.\sdCardOper.c	/^FIL sdCardFile;$/;"	v
+sdCardFinishPlayback	.\sdCardOper.c	/^void sdCardFinishPlayback(void)\/*{{{*\/$/;"	f	signature:(void)
+sdCardFinishPlayback	.\sdCardOper.h	/^void sdCardFinishPlayback(void);$/;"	p	signature:(void)
+sdCardFs	.\sdCardOper.c	/^FATFS sdCardFs;$/;"	v
+sdCardHasNextByte	.\sdCardOper.c	/^bool sdCardHasNextByte;$/;"	v
+sdCardInit	.\sdCardOper.c	/^SdErrorCode sdCardInit(void)\/*{{{*\/$/;"	f	signature:(void)
+sdCardInit	.\sdCardOper.h	/^SdErrorCode sdCardInit(void);$/;"	p	signature:(void)
+sdCardIsCapturing	.\sdCardOper.c	/^bool sdCardIsCapturing;$/;"	v
+sdCardIsPlaying	.\sdCardOper.c	/^bool sdCardIsPlaying;$/;"	v
+sdCardNextByte	.\sdCardOper.c	/^u8 sdCardNextByte;$/;"	v
+sdCardOpenFileInfo	.\sdCardOper.c	/^FILINFO sdCardOpenFileInfo;$/;"	v
+sdCardOpenFileSize	.\sdCardOper.c	/^u32 sdCardOpenFileSize;$/;"	v
+sdCardOpenRoot	.\sdCardOper.c	/^bool sdCardOpenRoot(void)\/*{{{*\/$/;"	f	signature:(void)
+sdCardOpenRoot	.\sdCardOper.h	/^bool sdCardOpenRoot(void);$/;"	p	signature:(void)
+sdCardPlaybackNext	.\sdCardOper.c	/^u8 sdCardPlaybackNext(void)\/*{{{*\/$/;"	f	signature:(void)
+sdCardPlaybackNext	.\sdCardOper.h	/^u8 sdCardPlaybackNext(void);$/;"	p	signature:(void)
+sdCardRes	.\sdCardOper.c	/^FRESULT sdCardRes;$/;"	v
+sdCardReset	.\sdCardOper.c	/^void sdCardReset(void)\/*{{{*\/$/;"	f	signature:(void)
+sdCardReset	.\sdCardOper.h	/^void sdCardReset(void);$/;"	p	signature:(void)
+sdCardStartPlayBack	.\sdCardOper.c	/^SdErrorCode sdCardStartPlayBack(char* filename)\/*{{{*\/$/;"	f	signature:(char* filename)
+sdCardStartPlayBack	.\sdCardOper.h	/^SdErrorCode sdCardStartPlayBack(char* filename);$/;"	p	signature:(char* filename)
+sdFileCnt	.\menu.c	/^int sdFileCnt;$/;"	v
+sdFileCurIdx	.\menu.c	/^int sdFileCurIdx=0;$/;"	v
+sdFileDispStartIdx	.\menu.c	/^int sdFileDispStartIdx=0;$/;"	v
+sdFileName	.\menu.c	/^char sdFileName[SdFile_MaxCnt][30]; \/\/×î¶àÎÄ¼þ¸öÊý$/;"	v
+sdMenu	.\menu.c	/^MenuItem sdMenu[];$/;"	v
+sdMenu	.\menu.c	/^MenuItem sdMenu[]=\/*{{{*\/$/;"	v
+sdMenuDrawFile	.\menu.c	/^void sdMenuDrawFile()  \/\/{{{$/;"	f
+sdMenuDrawFile	.\menu.h	/^void sdMenuDrawFile(void);$/;"	p	signature:(void)
+sdMenuFunc	.\menu.c	/^void sdMenuFunc()  \/\/{{{$/;"	f
+sdMenuFunc	.\menu.h	/^void sdMenuFunc(void);$/;"	p	signature:(void)
+sdMenuInitFiles	.\sdCardOper.c	/^bool sdMenuInitFiles(char * path) \/\/åˆå§‹åŒ–èŽ·å¾—SDå¡ä¸­æ–‡ä»¶å	\/* {{{ *\/$/;"	f	signature:(char * path)
+sdMenuInitFiles	.\sdCardOper.h	/^bool sdMenuInitFiles(char * path);$/;"	p	signature:(char * path)
+sdOverTimeout	.\timeout.c	/^Timeout sdOverTimeout;$/;"	v
+sdPrintFileName	.\sdCardOper.c	/^char sdPrintFileName[50];$/;"	v
+setIntegradeChange	.\main.c	/^bool setIntegradeChange;$/;"	v
+setPlatformTargetTemp	.\tempature.c	/^int setPlatformTargetTemp=100;$/;"	v
+setTargetTemp	.\tempature.c	/^int setTargetTemp=240;$/;"	v
+setTempIntegrade	.\main.c	/^uint16_t setTempIntegrade;$/;"	v
+showCancelFace	.\menu.c	/^void showCancelFace(void);$/;"	p	file:	signature:(void)
+showCancelFace	.\menu.c	/^void showCancelFace(void)\/*{{{*\/$/;"	f	signature:(void)
+showChildItem	.\menu.c	/^void showChildItem() \/\/ÏÔÊ¾ÏÂÒ»¼¶²Ëµ¥  \/\/{{{$/;"	f
+showChildItem	.\menu.h	/^void showChildItem(void); \/\/ÏÔÊ¾ÏÂÒ»¼¶²Ëµ¥$/;"	p	signature:(void)
+showCurItem	.\menu.c	/^void showCurItem()  \/\/ÏÔÊ¾µ±Ç°²Ëµ¥ \/\/{{{$/;"	f
+showCurItem	.\menu.h	/^void showCurItem(void);$/;"	p	signature:(void)
+showErrMsg	.\menu.c	/^void showErrMsg(char* str)\/*{{{*\/$/;"	f	signature:(char* str)
+showItems	.\menu.c	/^void showItems() \/\/{{{$/;"	f
+showItems	.\menu.h	/^void showItems(void);$/;"	p	signature:(void)
+showParentItem	.\menu.c	/^void showParentItem() \/\/ÏÔÊ¾¸¸¼¶²Ëµ¥ \/\/{{{$/;"	f
+showParentItem	.\menu.h	/^void showParentItem(void);\/\/ ·µ»ØÏÔÊ¾ÉÏÒ»¼¶²Ëµ¥ $/;"	p	signature:(void)
+size	.\circleBuf.h	/^	BufSizeType size; \/\/\/ Size of this buffer$/;"	m	struct:cicleBufStruct	access:public
+splashMenu	.\menu.c	/^MenuItem splashMenu[]= \/\/{{{$/;"	v
+stableTempCnt	.\stm32f10x_it.c	/^uint8_t stableTempCnt=0;$/;"	v
+start	.\circleBuf.h	/^	volatile BufSizeType start; \/\/\/ Current circleBufStart point of valid bufffer data$/;"	m	struct:cicleBufStruct	access:public
+startStamp	.\timeout.h	/^	u32 startStamp;$/;"	m	struct:TimeoutStruct	access:public
+stopSdPrint	.\menu.c	/^void stopSdPrint(void);$/;"	p	file:	signature:(void)
+stopSdPrint	.\menu.c	/^void stopSdPrint(void)\/*{{{*\/$/;"	f	signature:(void)
+stopUtilityScript	.\menu.c	/^void stopUtilityScript(void);$/;"	p	file:	signature:(void)
+stopUtilityScript	.\menu.c	/^void stopUtilityScript(void)\/*{{{*\/$/;"	f	signature:(void)
+str_MenuItem	.\menu.h	/^typedef struct str_MenuItem$/;"	s
+str_MenuItem::dispString	.\menu.h	/^	char * dispString;$/;"	m	struct:str_MenuItem	access:public
+str_MenuItem::itemCnt	.\menu.h	/^	uint8_t itemCnt;$/;"	m	struct:str_MenuItem	access:public
+str_MenuItem::itemFunc	.\menu.h	/^	void (*itemFunc)();$/;"	m	struct:str_MenuItem	access:public
+str_MenuItem::pChildMenu	.\menu.h	/^	struct str_MenuItem *pChildMenu;$/;"	m	struct:str_MenuItem	typeref:struct:str_MenuItem::str_MenuItem	access:public
+str_MenuItem::pParentMenu	.\menu.h	/^	struct str_MenuItem *pParentMenu;$/;"	m	struct:str_MenuItem	typeref:struct:str_MenuItem::str_MenuItem	access:public
+sysMicros	.\globalDef.c	/^vu32 sysMicros=0;$/;"	v
+tempatureControl	.\tempature.c	/^void tempatureControl(void)\/*{{{*\/$/;"	f	signature:(void)
+tempatureControl	.\tempature.h	/^void tempatureControl(void);$/;"	p	signature:(void)
+thermcoupleIOinit	.\thermcouple.c	/^void thermcoupleIOinit(void)\/*{{{*\/$/;"	f	signature:(void)
+thermcoupleIOinit	.\thermcouple.h	/^void thermcoupleIOinit(void);$/;"	p	signature:(void)
+thermcoupleReadTemp	.\thermcouple.c	/^uint16_t thermcoupleReadTemp(void)\/*{{{*\/$/;"	f	signature:(void)
+thermcoupleReadTemp	.\thermcouple.h	/^uint16_t thermcoupleReadTemp(void);$/;"	p	signature:(void)
+thermistorIOinit	.\thermcouple.c	/^void thermistorIOinit(void)\/*{{{*\/$/;"	f	signature:(void)
+thermistorIOinit	.\thermcouple.h	/^void thermistorIOinit(void);$/;"	p	signature:(void)
+thermistorReadTemp	.\thermcouple.c	/^uint16_t thermistorReadTemp(void)\/*{{{*\/$/;"	f	signature:(void)
+thermistorReadTemp	.\thermcouple.h	/^uint16_t thermistorReadTemp(void);$/;"	p	signature:(void)
+tim3IntrCnt	.\stm32f10x_it.c	/^uint8_t tim3IntrCnt=0;$/;"	v
+timeoutAbort	.\timeout.c	/^void timeoutAbort(Timeout * pTimeout) \/\/åœæ­¢å½“å‰è®¡æ—¶å™¨\/*{{{*\/$/;"	f	signature:(Timeout * pTimeout)
+timeoutAbort	.\timeout.h	/^void timeoutAbort(Timeout * pTimeout);$/;"	p	signature:(Timeout * pTimeout)
+timeoutClear	.\timeout.c	/^void timeoutClear(Timeout * pTimeout) \/\/æ¸…é™¤å½“å‰å®šæ—¶å™¨çš„è¶…æ—¶æ ‡å¿—\/*{{{*\/$/;"	f	signature:(Timeout * pTimeout)
+timeoutClear	.\timeout.h	/^void timeoutClear(Timeout * pTimeout);$/;"	p	signature:(Timeout * pTimeout)
+timeoutHasElapsed	.\timeout.c	/^bool timeoutHasElapsed(Timeout * pTimeout)\/*{{{*\/$/;"	f	signature:(Timeout * pTimeout)
+timeoutHasElapsed	.\timeout.h	/^bool timeoutHasElapsed(Timeout * pTimeout);$/;"	p	signature:(Timeout * pTimeout)
+timeoutInit	.\timeout.c	/^void timeoutInit(Timeout* pTimeout)\/*{{{*\/$/;"	f	signature:(Timeout* pTimeout)
+timeoutInit	.\timeout.h	/^void timeoutInit(Timeout* pTimeout);$/;"	p	signature:(Timeout* pTimeout)
+timeoutStart	.\timeout.c	/^void timeoutStart(Timeout* pTimeout,u32 durationIn)\/*{{{*\/$/;"	f	signature:(Timeout* pTimeout,u32 durationIn)
+timeoutStart	.\timeout.h	/^void timeoutStart(Timeout* pTimeout,u32 durationIn);$/;"	p	signature:(Timeout* pTimeout,u32 durationIn)
+toolOffsets	.\motor.c	/^volatile int32_t toolOffsets[STEPPER_COUNT];$/;"	v
+totalControl	.\tempature.c	/^int pControl,dControl,iControl,totalControl;$/;"	v
+true	.\globalDef.h	46;"	d
+true	.\hardwareDef.h	195;"	d
+underflow	.\circleBuf.h	/^	volatile bool underflow; \/\/\/ Underflow indicator$/;"	m	struct:cicleBufStruct	access:public
+us_HomeAxes	.\utilityScripts.c	/^static uint8_t us_HomeAxes[] = \/*{{{*\/$/;"	v	file:
+us_HomeAxes	.\utilityScripts.c	/^static uint8_t us_HomeAxes[]={131,4};$/;"	v	file:
+us_Lengths	.\utilityScripts.c	/^ static uint16_t us_Lengths[3]  = { 75, \/\/\/ Home Axes$/;"	v	file:
+us_LevelPlate	.\utilityScripts.c	/^static uint8_t us_LevelPlate[] =\/*{{{*\/$/;"	v	file:
+us_LevelPlate	.\utilityScripts.c	/^static uint8_t us_LevelPlate[]={131,4};$/;"	v	file:
+us_NozzleCalibrate	.\utilityScripts.c	/^static uint8_t us_NozzleCalibrate[] = \/*{{{*\/$/;"	v	file:
+us_NozzleCalibrate	.\utilityScripts.c	/^static uint8_t us_NozzleCalibrate[]={131,4};$/;"	v	file:
+usrInputTime	.\globalDef.c	/^uint32_t usrInputTime=300*1000*1000;$/;"	v
+usrInputTimeout	.\timeout.c	/^Timeout usrInputTimeout;$/;"	v
+utilityFinishPlayback	.\utilityScripts.c	/^void utilityFinishPlayback()\/*{{{*\/$/;"	f
+utilityFinishPlayback	.\utilityScripts.h	/^void utilityFinishPlayback(void);$/;"	p	signature:(void)
+utilityGetSecondLevelOffset	.\utilityScripts.c	/^void utilityGetSecondLevelOffset()\/*{{{*\/$/;"	f
+utilityGetSecondLevelOffset	.\utilityScripts.h	/^void utilityGetSecondLevelOffset(void);$/;"	p	signature:(void)
+utilityIsPlaying	.\utilityScripts.c	/^bool utilityIsPlaying(void)\/*{{{*\/$/;"	f	signature:(void)
+utilityIsPlaying	.\utilityScripts.h	/^bool utilityIsPlaying(void);$/;"	p	signature:(void)
+utilityMenu	.\menu.c	/^MenuItem utilityMenu[];$/;"	v
+utilityMenu	.\menu.c	/^MenuItem utilityMenu[]=\/*{{{*\/$/;"	v
+utilityMenuFunc	.\menu.c	/^void utilityMenuFunc()\/*{{{*\/$/;"	f
+utilityMenuFunc	.\menu.h	/^void utilityMenuFunc(void);$/;"	p	signature:(void)
+utilityPlaybackHasNext	.\utilityScripts.c	/^bool utilityPlaybackHasNext()\/*{{{*\/$/;"	f
+utilityPlaybackHasNext	.\utilityScripts.h	/^bool utilityPlaybackHasNext(void);$/;"	p	signature:(void)
+utilityPlaybackNext	.\utilityScripts.c	/^uint8_t utilityPlaybackNext()\/*{{{*\/$/;"	f
+utilityPlaybackNext	.\utilityScripts.h	/^uint8_t utilityPlaybackNext(void);$/;"	p	signature:(void)
+utilityScriptName	.\utilityScripts.h	/^enum utilityScriptName$/;"	g
+utilityStartPlayback	.\utilityScripts.c	/^bool utilityStartPlayback(uint8_t build)\/*{{{*\/$/;"	f	signature:(uint8_t build)
+utilityStartPlayback	.\utilityScripts.h	/^bool utilityStartPlayback(uint8_t build);$/;"	p	signature:(uint8_t build)
+utility_buildFile	.\utilityScripts.c	/^uint8_t * utility_buildFile;$/;"	v
+utility_buildIndex	.\utilityScripts.c	/^int utility_buildIndex;$/;"	v
+utility_buildLength	.\utilityScripts.c	/^int utility_buildLength;$/;"	v
+utility_isPlaying	.\utilityScripts.c	/^bool utility_isPlaying;$/;"	v
+utiltiyReset	.\utilityScripts.c	/^void utiltiyReset()\/*{{{*\/$/;"	f
+utiltiyReset	.\utilityScripts.h	/^void utiltiyReset(void);$/;"	p	signature:(void)
+valueInit	.\main.c	/^void valueInit(void);$/;"	p	file:	signature:(void)
+valueInit	.\main.c	/^void valueInit(void)\/*{{{*\/$/;"	f	signature:(void)
+welcomeMenu	.\menu.c	/^MenuItem welcomeMenu[]=  \/\/{{{$/;"	v
+welcomeMenuFunc	.\menu.c	/^void welcomeMenuFunc()  \/\/{{{$/;"	f
+welcomeMenuFunc	.\menu.h	/^void welcomeMenuFunc(void);$/;"	p	signature:(void)
